@@ -1,33 +1,33 @@
 // @flow
 
 import React from 'react'
-import {Http} from 'app/http/Http'
 import {Link, Switch, Route, IndexRoute} from 'react-router-dom'
-import {SubComponent} from 'app/SubComponent'
+import {HomePage} from 'app/home/HomePage'
+import {HashRouter as Router, hashHistory} from 'react-router-dom'
 
-type Props = {
-  http: Http
-}
+import styles from 'styles/base.scss'
 
 export class App extends React.Component {
-  props: Props
-
-  constructor(props: Props) {
-    super(props)
-  }
 
   render = (): React.Element<*> => (
-    <div>
-      <SubComponent />
-      <Route exact path='/' component={() =>
-        <Link to='/route' > Toggle Route </Link>
-      } />
-      <Route path='/route' component={() => (
-        <div>
-          <Link to='/'> Toggle Route </Link>
-          <p>You found a route</p>
-        </div>
-      )} />
-    </div>
+    <Router history={hashHistory}>
+      <div>
+        <Route exact path='/' component={() =>
+          <HomePage />
+        } />
+        <Route exact path='/projects' component={() =>
+          <div><p>Page not created yet </p><Link to='/'>Back to Home</Link></div>
+        } />
+        <Route path='/merits' component={() =>
+          <div><p>Page not created yet </p><Link to='/'>Back to Home</Link></div>
+        } />
+        <Route path='/about' component={() =>
+          <div><p>Page not created yet </p><Link to='/'>Back to Home</Link></div>
+        } />
+        <Route path='/posts' component={() =>
+          <div><p>Page not created yet </p><Link to='/'>Back to Home</Link></div>
+        } />
+      </div>
+    </Router>
   )
 }

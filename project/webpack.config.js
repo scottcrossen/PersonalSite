@@ -1,6 +1,5 @@
 // Using current version of javascript so 'webpack' macros work.
 
-const atImport = require('postcss-import')
 const ExtractTextWebpackPlugin = require('extract-text-webpack-plugin')
 const FlowStatusWebpackPlugin = require('flow-status-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -12,9 +11,8 @@ module.exports = {
   entry: [
     'react-hot-loader/patch',
     'babel-polyfill',
-    'webpack-hot-middleware/client?reload=true&timeout=2000&path=/hot',
+    'webpack-hot-middleware/client?reload=false&timeout=2000&path=/hot',
     'webpack/hot/dev-server',
-    path.resolve(__dirname, 'node_modules/react-grid-layout/css/styles.css'),
     path.resolve(__dirname, 'source/app/index.js')
   ],
   output: {
@@ -23,11 +21,12 @@ module.exports = {
     publicPath: '/',
   },
   resolve: {
-    root: path.resolve(__dirname),
-    extensions: ['', '.json', '.jsx', '.js'],
+    modules: [path.resolve(__dirname), "node_modules"],
+    extensions: ['.json', '.jsx', '.js'],
     alias: {
       app: path.resolve(__dirname, 'source/app'),
-      styles: path.resolve(__dirname, 'source/styles')
+      styles: path.resolve(__dirname, 'source/styles'),
+      assets: path.resolve(__dirname, 'source/assets')
     }
   },
   module: {
@@ -35,29 +34,40 @@ module.exports = {
       {
         test: /\.js$/,
         exclude: path.resolve(__dirname, 'node_modules'),
-        loader: 'babel'
+        use: 'babel-loader'
       },
       {
         test: /\.jsx$/,
         include: path.resolve(__dirname, 'source'),
-        loader: 'babel'
+        use: 'babel-loader'
       },
       {
         test: /(\.scss|\.css)$/,
-        loader: ExtractTextWebpackPlugin.extract(
-          "style",
-          "css!sass!postcss"
+        use: ['css-hot-loader'].concat(
+          ExtractTextWebpackPlugin.extract({fallback: 'style-loader', use: [
+            'css-loader',
+            'sass-loader',
+            {
+              loader: 'postcss-loader',
+              options: {
+                plugins: () => [
+                  'postcss-import',
+                ]
+              }
+            }
+          ]})
         )
       },
       {
         include: /\.json$/,
-        loaders: ["json-loader"]
+        use: ["json-loader"]
       },
-    ],
-    postcss: [
-      atImport({
-        path: ['node_modules', './source',]
-      })
+      {
+        test: /\.(jpe?g|png|gif|svg)$/i,
+        use: [
+          'file-loader?name=assets/[name].[ext]'
+        ]
+      }
     ]
   },
   plugins: [
