@@ -10,6 +10,7 @@ type Props = {
 }
 
 export const FitTypes = {
+  none: 'none',
   matchWidth: 'matchWidth',
   matchHeight: 'matchHeight',
 }
@@ -19,7 +20,7 @@ export type FitType = $Keys<typeof FitTypes>
 export class Image extends React.Component {
   render = (): React.Element<*> => (
     <img
-      style={Object.assign({},
+      style={Object.assign({...this.props.style},
         ((this.props.fit == FitTypes.matchHeight) ? {height: '100%'} : {}),
         ((this.props.fit == FitTypes.matchWidth) ? {width: '100%'} : {})
       )}
