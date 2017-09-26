@@ -1,10 +1,10 @@
 // @flow
 
 import {ScreenClassRender} from 'react-grid-system'
+import React from 'react'
 
 
 export class HomePage extends React.Component {
-  state: State
 
   render = (): React.Element<*> => <div></div>
 

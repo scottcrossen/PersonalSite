@@ -50,7 +50,7 @@ export class HomePage extends React.Component {
       <ScreenClassRender style={imageSizeFunction}>
         <div>
           <Image
-            source='http://scottcrossen42.com/wp-content/uploads/2016/06/home_hero-1.jpg'
+            source={require('assets/images/row-2/esc_top_1.jpg')}
             fit={FitTypes.none}
           />
         </div>
