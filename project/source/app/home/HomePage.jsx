@@ -14,10 +14,10 @@ type State = {
   height: number,
 }
 
-export class HomePage extends React.Component {
+export class HomePage extends React$Component<Props, State>{
   state: State
 
-  render = (): React.Element<*> => {
+  render = (): React$Element<*> => {
     const {width, height} = this.state
     const borderSize = Math.min(width, height) * 0.1
 
@@ -50,7 +50,7 @@ export class HomePage extends React.Component {
       <ScreenClassRender style={imageSizeFunction}>
         <div>
           <Image
-            source={require('assets/images/row-2/esc_top_1.jpg')}
+            source={/*require('assets/images/row-2/esc_top_1.jpg')*/''}
             fit={FitTypes.none}
           />
         </div>

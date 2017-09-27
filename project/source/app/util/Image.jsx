@@ -18,10 +18,10 @@ export const FitTypes = {
 
 export type FitType = $Keys<typeof FitTypes>
 
-export class Image extends React.Component {
+export class Image extends React$Component<Props>{
   props: Props
 
-  render = (): React.Element<*> => (
+  render = (): React$Element<*> => (
     <img
       style={Object.assign({...this.props.style},
         ((this.props.fit == FitTypes.matchHeight) ? {height: '100%'} : {}),

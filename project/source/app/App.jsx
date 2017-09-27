@@ -7,9 +7,9 @@ import {HashRouter as Router, hashHistory} from 'react-router-dom'
 
 import styles from 'styles/base.scss'
 
-export class App extends React.Component {
+export class App extends React$Component<*>{
 
-  render = (): React.Element<*> => (
+  render = (): React$Element<*> => (
     <Router history={hashHistory}>
       <div>
         <Route exact path='/' component={() =>
