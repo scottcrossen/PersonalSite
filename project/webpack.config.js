@@ -59,19 +59,44 @@ module.exports = {
         )
       },
       {
-        include: /\.json$/,
-        use: ["json-loader"]
+        exclude: path.resolve(__dirname, 'source', 'assets'),
+        test: /\.json$/,
+        use: "json-loader"
       },
       {
-        test: /\.(jpe?g|png|gif|svg)$/i,
+        test: /assets[^.]*\.(jpe?g|png|gif|svg)$/i,
+        use:
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[path][name].[ext]',
+              context: 'source/'
+            }
+          }
+      },
+      {
+        test: /assets[^.]*\.(json|html)$/i,
         use: [
-          'file-loader?name=assets/[name].[ext]'
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[path][name].[ext]',
+              context: 'source/'
+            }
+          },
+          {
+            loader: 'text-replace-file-loader',
+            options: {
+              name: '[path][name].[ext]',
+              context: 'source/'
+            }
+          }
         ]
       }
     ]
   },
   plugins: [
-    new ExtractTextWebpackPlugin('app.css'),
+    new ExtractTextWebpackPlugin('styles.css'),
     new webpack.optimize.OccurrenceOrderPlugin(),
     new webpack.HotModuleReplacementPlugin(),
     new HtmlWebpackPlugin({
