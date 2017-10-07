@@ -14,7 +14,7 @@ type State = {
   height: number,
 }
 
-export class HomePage extends React$Component<Props, State>{
+export class HomePage extends React.Component<Props, State>{
   state: State
 
   render = (): React$Element<*> => {
@@ -50,7 +50,7 @@ export class HomePage extends React$Component<Props, State>{
       <ScreenClassRender style={imageSizeFunction}>
         <div>
           <Image
-            source={/*require('assets/images/row-2/esc_top_1.jpg')*/''}
+            source={require('assets/images/global/esc_top_1.jpg')}
             fit={FitTypes.none}
           />
         </div>
