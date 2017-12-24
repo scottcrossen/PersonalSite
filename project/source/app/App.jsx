@@ -24,7 +24,7 @@ export const App = (): React$Element<*> => (
       <div><AboutMe /><Link className='back-home' to='/'><h3>Back to Home</h3></Link></div>
     } />
     <Route path='/posts' component={() =>
-      <Posts />
+      <div><Posts /><Link className='back-home' to='/'><h3>Back to Home</h3></Link></div>
     } />
     <Route path='/' component={() =>
       <Home />
