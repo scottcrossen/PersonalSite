@@ -6,18 +6,20 @@ import {ImageHeader} from 'app/util/ImageHeader'
 import {MarkdownHolder} from 'app/util/MarkdownHolder'
 
 type Props = {
+  image: string,
+  title: string,
   content: string
 }
 
-export class Experience extends React.Component<Props>{
+export class MarkdownPage extends React.Component<Props>{
 
   render = (): React$Element<*> => (
-    <div className={classnames('experience')}>
+    <div>
       <ImageHeader
-        title='Experience'
-        source={require('assets/images/global/ecs_team_2.jpg')}
+        title={this.props.title}
+        source={this.props.image}
       />
-      <MarkdownHolder>{this.props.content}</MarkdownHolder>
+      <MarkdownHolder>{this.props.content ? this.props.content : ''}</MarkdownHolder>
     </div>
   )
 }

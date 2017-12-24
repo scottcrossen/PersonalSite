@@ -8,8 +8,11 @@ const initialState = {
     degrees: null,
     courses: null,
     experience: null,
+    other: null,
   },
-  posts: []
+  posts: [],
+  projects: [],
+  about: null
 }
 
 export default (state: State = initialState, action: Action) => {
@@ -20,10 +23,13 @@ export default (state: State = initialState, action: Action) => {
         action.data.degrees ? {degrees: action.data.degrees} : {},
         action.data.courses ? {courses: action.data.courses} : {},
         action.data.experience ? {experience: action.data.experience} : {},
+        action.data.otherMerits ? {other: action.data.otherMerits} : {},
       )
       return Object.assign({}, state,
         merits ? {merits: merits}: {},
-        action.data.posts ? {posts: action.data.posts} : {}
+        action.data.posts ? {posts: action.data.posts} : {},
+        action.data.projects ? {projects: action.data.projects} : {},
+        action.data.about ? {about: action.data.about} : {},
       )
     }
     default:

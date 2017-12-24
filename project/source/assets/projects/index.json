@@ -1,2 +1,14 @@
-{
-}
+[
+  {
+    "title": "Test Post 1",
+    "order": 0,
+    "image": "require('assets/images/global/y_mount_top.jpg')",
+    "file": "require('assets/projects/test.md')"
+  },
+  {
+    "title": "Test Post 2",
+    "order": 1,
+    "image": "require('assets/images/global/y_mount_top.jpg')",
+    "file": "require('assets/projects/test.md')"
+  }
+]

@@ -2,16 +2,14 @@
 
 import classnames from 'classnames'
 import React from 'react'
-import {loadCoursesCommand, loadDegreesCommand, loadExperienceCommand} from 'app/actions/HttpAction'
+import {loadCoursesCommand, loadDegreesCommand, loadExperienceCommand, loadOtherMeritsCommand} from 'app/actions/HttpAction'
 import {connect} from 'react-redux'
 import {type StoreState} from 'app/state/index'
 import {type Dispatch} from 'redux'
 import {Link, Switch, Route} from 'react-router-dom'
-import {Degrees} from 'app/merits/Degrees'
-import {Courses} from 'app/merits/Courses'
-import {Experience} from 'app/merits/Experience'
 import {withRouter} from 'react-router-dom'
 import {ImageHeader} from 'app/util/ImageHeader'
+import {MarkdownPage} from 'app/util/MarkdownPage'
 
 import styles from 'styles/merits/_merits.scss'
 
@@ -21,11 +19,13 @@ type StateProps = {
   courses: string,
   experience: string,
   degrees: string,
+  other: string,
 }
 type DispatchProps = {
   loadCourses: void => Promise<string>,
   loadDegrees: void => Promise<string>,
   loadExperience: void => Promise<string>,
+  loadOther: void => Promise<string>,
 }
 type Props = OwnProps & StateProps & DispatchProps
 
@@ -34,18 +34,31 @@ class Merits extends React.Component<Props>{
   render = (): React$Element<*> => {
     return <Switch>
       <Route path='/merits/degrees' component={() =>
-        <Degrees
+        <MarkdownPage
+          title='Degrees'
+          image={require('assets/images/global/byu_sign_1.jpg')}
           content={this.props.degrees}
         />
       } />
       <Route path='/merits/experience' component={() =>
-        <Experience
+        <MarkdownPage
+          title='Experience'
+          image={require('assets/images/global/ecs_team_2.jpg')}
           content={this.props.experience}
         />
       } />
       <Route path='/merits/courses' component={() =>
-        <Courses
+        <MarkdownPage
+          title='Courses'
+          image={require('assets/images/global/uofu_physics_3.jpg')}
           content={this.props.courses}
+        />
+      } />
+      <Route path='/merits/other' component={() =>
+        <MarkdownPage
+          title='Other Merits'
+          image={require('assets/images/global/steal_3.jpg')}
+          content={this.props.other}
         />
       } />
       <Route path='/merits' component={() =>
@@ -58,6 +71,7 @@ class Merits extends React.Component<Props>{
             <Link to='/merits/degrees'><button>My Degrees</button></Link>
             <Link to='/merits/experience'><button>My Work Experience</button></Link>
             <Link to='/merits/courses'><button>Courses I've Taken</button></Link>
+            <Link to='/merits/other'><button>Other Accomplishments</button></Link>
           </div>
         </div>
       } />
@@ -65,7 +79,6 @@ class Merits extends React.Component<Props>{
   }
 
   componentDidMount = (): void => {
-    console.log("Loading merits page")
     if (!this.props.experience) {
       this.props.loadExperience()
     }
@@ -75,17 +88,21 @@ class Merits extends React.Component<Props>{
     if (!this.props.experience) {
       this.props.loadDegrees()
     }
+    if (!this.props.other) {
+      this.props.loadOther()
+    }
   }
 }
 
 const mapStateToProps = (storeState: StoreState, ownProps: OwnProps): StateProps & OwnProps => {
-  const {courses, degrees, experience} = storeState.http.merits
-  return {courses, degrees, experience, ...ownProps}
+  const {courses, degrees, experience, other} = storeState.http.merits
+  return {courses, degrees, experience, other, ...ownProps}
 }
 const mapDispatchToProps = (dispatch: Dispatch, ownProps: OwnProps): DispatchProps => ({
   loadCourses: loadCoursesCommand(dispatch, ownProps),
   loadDegrees: loadDegreesCommand(dispatch, ownProps),
   loadExperience: loadExperienceCommand(dispatch, ownProps),
+  loadOther: loadOtherMeritsCommand(dispatch, ownProps),
 })
 const composedComponent = withRouter(connect(mapStateToProps, mapDispatchToProps)(Merits))
 

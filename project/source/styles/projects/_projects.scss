@@ -1,0 +1,29 @@
+@import '~styles/colors';
+
+.projects {
+  .project-list-aligner {
+    display: flex;
+    justify-content: center;
+    .project-list {
+      min-width: calc(100vw - 20vmin + 40px);
+      width: calc((100vw - 20vmin) * 0.6);
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      & > a {
+        max-width: 200px;
+        width: calc(100vw - 20vmin);
+        height: calc(100vw - 20vmin);
+        max-height: 200px;
+        margin: 20px;
+        img {
+        }
+        h2 {
+          display: none;
+        }
+      }
+      margin-top: 0vh;
+      margin-bottom: 5vh;
+    }
+  }
+}

@@ -78,8 +78,48 @@ export const loadExperienceCommand = (dispatch: Dispatch, ownProps: Object): (vo
     })
   }
 }
+export const loadOtherMeritsCommand = (dispatch: Dispatch, ownProps: Object): (void => Promise<string>) => {
+  return () => {
+    console.log("Loading other merits")
+    return fetch(require('assets/merits/other.md'))
+    .then((response: Object): Promise<string> => {
+      if (response.status >= 400) {
+        return Promise.reject("Bad response from server")
+      }
+      return response.text()
+    }).then((otherMerits: string) => {
+      dispatch({
+        type: ActionTypes.set,
+        data: {
+          otherMerits: otherMerits
+        }
+      })
+      return otherMerits
+    })
+  }
+}
+export const loadAboutMeCommand = (dispatch: Dispatch, ownProps: Object): (void => Promise<string>) => {
+  return () => {
+    console.log("Loading about-me")
+    return fetch(require('assets/about/about.md'))
+    .then((response: Object): Promise<string> => {
+      if (response.status >= 400) {
+        return Promise.reject("Bad response from server")
+      }
+      return response.text()
+    }).then((about: string) => {
+      dispatch({
+        type: ActionTypes.set,
+        data: {
+          about: about
+        }
+      })
+      return about
+    })
+  }
+}
 
-type ManifestItem = {
+type PostManifestItem = {
   title: string,
   order: 0,
   image: string,
@@ -89,16 +129,17 @@ type ManifestItem = {
 
 export const loadPostsCommand = (dispatch: Dispatch, ownProps: Object): (void => Promise<Array<Post>>) => {
   return () => {
-    console.log("Loading posts")
+    console.log("Loading post index")
     return fetch(require('assets/posts/index.json'))
-    .then((response: Object): Promise<Array<ManifestItem>> => {
+    .then((response: Object): Promise<Array<PostManifestItem>> => {
       if (response.status >= 400) {
         return Promise.reject("Bad response from server")
       }
       return response.json()
-    }).then((manifest: Array<ManifestItem>): Promise<Array<Post>> => {
+    }).then((manifest: Array<PostManifestItem>): Promise<Array<Post>> => {
+      console.log("Loading posts")
       return Promise.all(
-        manifest.map((item: ManifestItem) => fetch(item.file).then((response: Object): Promise<Post> => {
+        manifest.map((item: PostManifestItem) => fetch(item.file).then((response: Object): Promise<Post> => {
           if (response.status >= 400) {
             return Promise.reject("Bad response from server")
           }
@@ -112,7 +153,7 @@ export const loadPostsCommand = (dispatch: Dispatch, ownProps: Object): (void =>
         })
       ))
     }).then((posts: Array<Post>) => {
-      const sortedPosts: Array<Post> = _.sortBy(posts, (post: Post) => post.order)
+      const sortedPosts: Array<Post> = _.sortBy(posts, (post: Post) => 0 - post.order)
       dispatch({
         type: ActionTypes.set,
         data: {
@@ -120,6 +161,50 @@ export const loadPostsCommand = (dispatch: Dispatch, ownProps: Object): (void =>
         }
       })
       return posts
+    })
+  }
+}
+
+type ProjectManifestItem = {
+  title: string,
+  order: 0,
+  image: string,
+  file: string,
+}
+
+export const loadProjectsCommand = (dispatch: Dispatch, ownProps: Object): (void => Promise<Array<Post>>) => {
+  return () => {
+    console.log("Loading project index")
+    return fetch(require('assets/projects/index.json'))
+    .then((response: Object): Promise<Array<ProjectManifestItem>> => {
+      if (response.status >= 400) {
+        return Promise.reject("Bad response from server")
+      }
+      return response.json()
+    }).then((manifest: Array<ProjectManifestItem>): Promise<Array<Post>> => {
+      console.log("Loading projects")
+      return Promise.all(
+        manifest.map((item: ProjectManifestItem) => fetch(item.file).then((response: Object): Promise<Post> => {
+          if (response.status >= 400) {
+            return Promise.reject("Bad response from server")
+          }
+          return response.text().then((content: string) => ({
+            title: item.title,
+            order: item.order,
+            image: item.image,
+            content: content,
+          }))
+        })
+      ))
+    }).then((projects: Array<Post>) => {
+      const sortedProject: Array<Post> = _.sortBy(projects, (projects: Post) => 0 - projects.order)
+      dispatch({
+        type: ActionTypes.set,
+        data: {
+          projects: sortedProject
+        }
+      })
+      return projects
     })
   }
 }

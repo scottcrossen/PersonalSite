@@ -7,6 +7,22 @@
     background-color: $white;
     & > .slider-wrapper > .slider > .slide > div {
       background-color: $white;
+      .click-box {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        visibility: hidden;
+        display: flex;
+        justify-content: center;
+        a {
+          position: absolute;
+          height: 70%;
+          width: 70%;
+          z-index: 1;
+          visibility: visible;
+        }
+      }
       img {
         height: 40%;
       }

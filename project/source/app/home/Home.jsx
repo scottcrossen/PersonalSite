@@ -12,7 +12,7 @@ type Props = {
 type State = {
 }
 
-export class HomePage extends React.Component<Props, State>{
+export class Home extends React.Component<Props, State>{
 
   render = (): React$Element<*> => {
     return (
