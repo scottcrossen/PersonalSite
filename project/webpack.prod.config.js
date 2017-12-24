@@ -1,16 +1,10 @@
-// Using current version of javascript so 'webpack' macros work.
-
 const ExtractTextWebpackPlugin = require('extract-text-webpack-plugin')
-const FlowStatusWebpackPlugin = require('flow-status-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path')
 const webpack = require('webpack')
 
 module.exports = {
-  resolveLoader: {
-    modules: ['node_modules', path.resolve(__dirname, 'custom-loaders')]
-  },
-  devtool: 'eval-source-map',
+  devtool: 'source-map',
   entry: [
     'babel-polyfill',
     path.resolve(__dirname, 'source/app/index.js')
@@ -52,6 +46,9 @@ module.exports = {
               options: {
                 plugins: () => [
                   'postcss-import',
+                  {loader: 'autoprefixer', options: { add: false, browsers: [] }},
+                  'postcss-next',
+                  'cssnano'
                 ]
               }
             }
@@ -60,22 +57,17 @@ module.exports = {
       },
       {
         exclude: path.resolve(__dirname, 'source', 'assets'),
-        test: /\.json$/,
-        use: "json-loader"
+        include: /\.json$/,
+        use: ["json-loader"]
       },
       {
-        test: /assets[^.]*\.(jpe?g|png|gif|svg)$/i,
-        use:
-          {
-            loader: 'file-loader',
-            options: {
-              name: '[path][name].[ext]',
-              context: 'source/'
-            }
-          }
+        test: /\.(jpe?g|png|gif|svg)$/i,
+        use: [
+          'file-loader?name=assets/[name].[ext]'
+        ]
       },
       {
-        test: /assets[^.]*\.(json|html)$/i,
+        test: /assets[^.]*\.(json|html|md)$/i,
         use: [
           {
             loader: 'file-loader',
@@ -96,14 +88,21 @@ module.exports = {
     ]
   },
   plugins: [
-    new ExtractTextWebpackPlugin('app.css'),
-    new webpack.optimize.UglifyJsPlugin(),
-    new webpack.optimize.OccurrenceOrderPlugin(),
     new webpack.DefinePlugin({
       'process.env': {
         'NODE_ENV': JSON.stringify('production')
       }
     }),
+    new ExtractTextWebpackPlugin('app.css'),
+    new webpack.optimize.UglifyJsPlugin({
+      sourceMap: true,
+      comments: false,
+      compress: {
+        warnings: false,
+        drop_console: true
+      }
+    }),
+    new webpack.optimize.OccurrenceOrderPlugin(),
     new HtmlWebpackPlugin({
       template: './index.html',
       filename: 'index.html',

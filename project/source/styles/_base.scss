@@ -1,0 +1,21 @@
+@import 'colors';
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+html, body {
+  padding: 0;
+  margin: 0;
+  color: $black;
+  font-family: Montserrat;
+  .back-home {
+    h3 {
+      margin-top: 75px;
+      text-align: center;
+    }
+  }
+}
+
+a:visited, a:link {
+  color: $black;
+  text-decoration: none;
+}

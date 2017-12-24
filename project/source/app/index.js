@@ -1,21 +1,24 @@
 // @flow
+
+import {App} from 'app/App'
+import {AppContainer} from 'app/AppContainer'
 import React from 'react'
 import ReactDOM from 'react-dom'
-import {AppContainer} from 'app/AppContainer'
+import {configureStore} from 'app/state/ConfigureStore'
+
+const store = configureStore()
 
 ReactDOM.render(
-  <AppContainer />,
+  <AppContainer app={App} store={store} />,
   document.getElementById('root')
 )
 
 if (module.hot) {
-  module.hot.accept('app/AppContainer.jsx', () => {
-
-    const NextAppContainer = require('app/AppContainer.jsx')
+  module.hot.accept('app/App.jsx', () => {
+    const NextApp = require('app/App.jsx').default
     ReactDOM.render(
-      <AppContainer />,
+      <AppContainer app={NextApp} store={store} />,
       document.getElementById('root')
     )
-
   })
 }

@@ -1,22 +1,27 @@
 {
-  "name": "project",
+  "name": "PersonalSite",
   "version": "0.0.1",
-  "description": "basic react application",
+  "description": "Scott Crossen's personal website",
   "main": "index.js",
   "scripts": {
     "dev": "npm install; babel-node index.js",
-    "prod": "npm install; webpack --config webpack.prod.config.js --progress"
+    "prod": "rm dist -rf; npm install; webpack --config webpack.prod.config.js --progress"
   },
   "dependencies": {
     "classnames": "2.2.5",
+    "fetch": "^1.1.0",
+    "github-markdown-css": "^2.9.0",
     "immutable": "3.8.1",
+    "isomorphic-fetch": "^2.2.1",
     "moment": "^2.15.2",
     "node-uuid": "^1.4.7",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-grid-system": "^2.9.6",
+    "react-markdown": "^3.1.3",
+    "react-redux": "^5.0.6",
     "react-responsive-carousel": "^3.1.27",
     "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
     "underscore": "1.8.3"
   },
   "devDependencies": {

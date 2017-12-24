@@ -1,83 +1,73 @@
-import {Carousel} from 'react-responsive-carousel';
-import {FatBorder} from 'app/util/FatBorder.jsx'
-import {FatBreak} from 'app/util/FatBreak.jsx'
+// @flow
+
+import {Carousel} from 'app/util/Carousel'
+import {FatBorder} from 'app/util/FatBorder'
+import {FatBreak} from 'app/util/FatBreak'
 import {Image, FitTypes} from 'app/util/Image'
+import {ImageHeader} from 'app/util/ImageHeader'
 import classnames from 'classnames'
 import React from 'react'
+import {loadPostsCommand} from 'app/actions/HttpAction'
+import {connect} from 'react-redux'
+import {type StoreState} from 'app/state/index'
+import {type Dispatch} from 'redux'
+import type {Post} from 'app/state/HttpState'
 
-import styles_1 from 'styles/posts/posts.scss';
-import styles_2 from 'react-responsive-carousel/lib/styles/carousel.min.css';
+import styles from 'styles/posts/_posts.scss'
 
-type Props = {
+type OwnProps = {
 }
-
-type State = {
-  width: number,
-  height: number,
+type StateProps = {
+  posts: Array<Post>
 }
+type DispatchProps = {
+  loadPosts: void => Promise<*>
+}
+type Props = OwnProps & StateProps & DispatchProps
 
-export class Posts extends React.Component<Props, State>{
+class Posts extends React.Component<Props>{
 
   render = (): React$Element<*> => {
-    const {height, width} = this.state
-    const {children} = this.props
-    const imageHeight = height * 0.3
-    // TODO: fix the carousel width for small displays
-    // TODO: make the overlay text not black
-    const carouselBorder = Math.min(width, height) * 0.4
-    return (
-      <div className={classnames('posts')}>
-        <div className={classnames('overlay')}>
-          <FatBorder>
-            <h1>Blog Posts</h1>
-          </FatBorder>
-        </div>
-        <FatBorder>
-          <div style={{height: imageHeight}}>
-            <Image source={require('assets/images/global/y_mount_top.jpg')}
-              fit={FitTypes.none}></Image>
-          </div>
-          <FatBreak />
-        </FatBorder>
-          <div style={{width: width - 2 * carouselBorder, marginLeft: carouselBorder, marginRight: carouselBorder}}>
-          <Carousel showStatus={false} showThumbs={false}>
-            <div>
-                <img src='assets/images/global/y_mount_top.jpg' />
-                <p className={classnames('post-1')}>Legend 1</p>
-            </div>
-            <div>
-                <img src='assets/images/global/y_mount_top.jpg' />
-                <p className={classnames('post-2')}>Legend 2</p>
-            </div>
-            <div>
-                <img src='assets/images/global/y_mount_top.jpg' />
-                <p className={classnames('post-3')}>Legend 3</p>
-            </div>
-          </Carousel>
-        </div>
+    const postElements: Array<React$Node> = this.props.posts.map((post: Post, index: number) =>
+      <div key={index}>
+        <img src={post.image} />
+          <h2>{post.title}</h2>
+          <p>{post.description}</p>
       </div>
     )
-    // Need title on page
-    // https://codepen.io/leandrowd/pen/xLvOPd
-    // https://www.npmjs.com/package/react-responsive-carousel
-  }
-
-  constructor(props: Props) {
-    super(props)
-    this.state = { width: 0, height: 0 }
-    this.updateWindowDimensions = this.updateWindowDimensions.bind(this)
+    const CarouselNotEmpty: React$Node = (postElements.length) ? (
+      <div className={classnames('posts-slide')}>
+        <Carousel>
+          {postElements}
+        </Carousel>
+      </div>
+    ) : (
+      <div className={classnames('posts-loading')}>
+        <h2>Loading Posts...</h2>
+      </div>
+    )
+    return (
+      <div className={classnames('posts')}>
+        <ImageHeader
+          title='Blog Posts'
+          source={require('assets/images/global/y_mount_top.jpg')}
+        />
+        {CarouselNotEmpty}
+      </div>
+    )
   }
 
   componentDidMount = (): void => {
-    this.updateWindowDimensions()
-    window.addEventListener('resize', this.updateWindowDimensions)
-  }
-
-  componentWillUnmount = (): void => {
-    window.removeEventListener('resize', this.updateWindowDimensions)
-  }
-
-  updateWindowDimensions = (): void => {
-    this.setState({ width: window.innerWidth, height: window.innerHeight })
+    this.props.loadPosts()
   }
 }
+
+const mapStateToProps = (storeState: StoreState, ownProps: OwnProps): StateProps & OwnProps => {
+  return {posts: storeState.http.posts, ...ownProps}
+}
+const mapDispatchToProps = (dispatch: Dispatch, ownProps: OwnProps): DispatchProps => ({
+  loadPosts: loadPostsCommand(dispatch, ownProps),
+})
+const composedComponent = connect(mapStateToProps, mapDispatchToProps)(Posts)
+
+export {composedComponent as Posts}

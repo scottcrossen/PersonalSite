@@ -9,3 +9,7 @@ declare type HotModuleReplacement = {
 declare module CSSModule {
   declare var exports: { [key: string]: string };
 }
+
+declare module MDModule {
+  declare var exports: string;
+}

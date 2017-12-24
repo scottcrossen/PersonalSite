@@ -1,0 +1,34 @@
+.home-page {
+  margin: 10vmin 10vmin 10vmin 10vmin;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 30px;
+    opacity: 0.6;
+  }
+  .right-panel {
+    margin-right: 5vw;
+    margin-left: 5vw;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .left-panel {
+    height: calc(100vh - 20vmin);
+    width: calc((70vw - 20vmin) / 2);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .left-panel {
+    height: calc((70vh - 20vmin) / 2);
+    width: calc(100vw - 20vmin);
+  }
+  .right-panel {
+    text-align: center;
+  }
+}

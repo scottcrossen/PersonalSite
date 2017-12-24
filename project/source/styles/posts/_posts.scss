@@ -1,0 +1,14 @@
+@import '~styles/colors';
+
+.posts {
+  .posts-slide {
+    margin: 10vmin 20vmin 10vmin 20vmin;
+    display: flex;
+    justify-content: center;
+  }
+  .posts-loading {
+    h2 {
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,46 @@
+@import '~styles/colors';
+
+.custom-carousel {
+  div {
+    height: 30vh;
+    max-width: 700px;
+    background-color: $white;
+    & > .slider-wrapper > .slider > .slide > div {
+      background-color: $white;
+      img {
+        height: 40%;
+      }
+      h2 {
+        margin-top: 1%;
+        color: $light-gray;
+        font-size: 32px;
+        font-weight: 700px;
+      }
+      p {
+        color: $dark-gray;
+        margin-top: 5%;
+        font-size: 18px;
+        font-weight: 300px;
+      }
+    }
+    & > .control-dots {
+      .dot {
+        width: 12px;
+        height: 12px;
+        margin: 5px 7px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+        background: $off-gray;
+        :not(.selected) {
+          filter: Alpha(Opacity=50);/*IE7 fix*/
+          opacity: 0.5;
+        }
+        .selected {
+          filter: Alpha(Opacity=100);/*IE7 fix*/
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

@@ -2,7 +2,7 @@
 
 import React from 'react'
 
-import styles from 'styles/util/image.scss'
+import styles from 'styles/util/_image.scss'
 
 type Props = {
   source: string,

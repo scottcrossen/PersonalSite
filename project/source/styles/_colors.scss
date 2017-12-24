@@ -1,0 +1,15 @@
+$white: #ffffff;
+$black: #000000;
+$lightest-gray: #f0f0f0;
+$light-gray: #666666;
+$dark-gray: #404040;
+$off-gray: #869790;
+
+:export {
+  white: $white;
+  black: $black;
+  light-gray: $light-gray;
+  dark-gray: $dark-gray;
+  off-gray: $off-gray;
+  lightest-gray: $lightest-gray;
+}

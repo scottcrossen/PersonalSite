@@ -17,6 +17,7 @@
 [options]
 emoji=true
 module.name_mapper='^.*\(\.scss\)$' -> 'CSSModule'
+module.name_mapper='^.*\(\.md\)$' -> 'MDModule'
 module.system=haste
 esproposal.class_static_fields=enable
 esproposal.class_instance_fields=enable

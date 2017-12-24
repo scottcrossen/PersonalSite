@@ -1,5 +1,3 @@
-// Using current version of javascript so 'webpack' macros work.
-
 const ExtractTextWebpackPlugin = require('extract-text-webpack-plugin')
 const FlowStatusWebpackPlugin = require('flow-status-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -52,7 +50,7 @@ module.exports = {
               options: {
                 plugins: () => [
                   'postcss-import',
-                  'autoprefixer': { add: false, browsers: [] },
+                  {loader: 'autoprefixer', options: { add: false, browsers: [] }},
                   'postcss-next',
                   'cssnano'
                 ]
@@ -63,22 +61,17 @@ module.exports = {
       },
       {
         exclude: path.resolve(__dirname, 'source', 'assets'),
-        test: /\.json$/,
-        use: "json-loader"
+        include: /\.json$/,
+        use: ["json-loader"]
       },
       {
-        test: /assets[^.]*\.(jpe?g|png|gif|svg)$/i,
-        use:
-          {
-            loader: 'file-loader',
-            options: {
-              name: '[path][name].[ext]',
-              context: 'source/'
-            }
-          }
+        test: /\.(jpe?g|png|gif|svg)$/i,
+        use: [
+          'file-loader?name=assets/[name].[ext]'
+        ]
       },
       {
-        test: /assets[^.]*\.(json|html)$/i,
+        test: /assets[^.]*\.(json|html|md)$/i,
         use: [
           {
             loader: 'file-loader',
@@ -99,7 +92,7 @@ module.exports = {
     ]
   },
   plugins: [
-    new ExtractTextWebpackPlugin('styles.css'),
+    new ExtractTextWebpackPlugin('app.css'),
     new webpack.optimize.OccurrenceOrderPlugin(),
     new webpack.HotModuleReplacementPlugin(),
     new HtmlWebpackPlugin({
