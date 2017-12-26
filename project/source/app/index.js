@@ -14,6 +14,10 @@ ReactDOM.render(
 )
 
 if (module.hot) {
+  module.hot.accept('app/loadAuxSources.js', () => {
+    const reload = require('app/loadAuxSources.js').default
+    reload()
+  })
   module.hot.accept('app/App.jsx', () => {
     const NextApp = require('app/App.jsx').default
     ReactDOM.render(

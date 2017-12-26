@@ -16,6 +16,7 @@ export class ImageHeader extends React.Component<Props>{
   render = (): React$Element<*> => {
     return <div className={classnames('image-header')}>
       <div className={classnames('overlay')}>
+        <div className={classnames('opacity-screen')}></div>
         <h1>{this.props.title}</h1>
       </div>
       <div className={classnames('title-image')}>

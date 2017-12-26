@@ -1,45 +1,70 @@
 @import '~styles/colors';
 
 .custom-carousel {
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 20px;
+  border-style: ridge;
+  * {
+    border-style: none;
+  }
   div {
+    padding-left: 5px;
+    padding-right: 5px;
     height: 30vh;
     max-width: 700px;
     background-color: $white;
-    & > .slider-wrapper > .slider > .slide > div {
-      background-color: $white;
-      .click-box {
-        position: absolute;
+    height: auto;
+    & > .slider-wrapper > .slider {
+      height: auto;
+      & > .slide {
         height: 100%;
-        width: 100%;
-        z-index: 1;
-        visibility: hidden;
-        display: flex;
-        justify-content: center;
-        a {
-          position: absolute;
-          height: 70%;
-          width: 70%;
-          z-index: 1;
-          visibility: visible;
+        & > div {
+          height: auto;
+          background-color: $white;
+          .click-box {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            z-index: 1;
+            visibility: hidden;
+            display: flex;
+            justify-content: center;
+            a {
+              position: absolute;
+              height: 70%;
+              width: 70%;
+              z-index: 1;
+              visibility: visible;
+            }
+          }
+          img {
+            height: auto;
+            max-height: 20vh;
+            width: 100%;
+          }
+          h2 {
+            margin-top: 1%;
+            color: $light-gray;
+            font-size: 32px;
+            font-weight: 700px;
+          }
+          p {
+            color: $dark-gray;
+            margin-top: 5%;
+            font-size: 18px;
+            font-weight: 300px;
+          }
         }
-      }
-      img {
-        height: 40%;
-      }
-      h2 {
-        margin-top: 1%;
-        color: $light-gray;
-        font-size: 32px;
-        font-weight: 700px;
-      }
-      p {
-        color: $dark-gray;
-        margin-top: 5%;
-        font-size: 18px;
-        font-weight: 300px;
       }
     }
     & > .control-dots {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      position: relative;
+
       .dot {
         width: 12px;
         height: 12px;

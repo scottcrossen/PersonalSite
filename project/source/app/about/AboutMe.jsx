@@ -28,7 +28,7 @@ class AboutMe extends React.Component<Props>{
   render = (): React$Element<*> => (
     <MarkdownPage
       title='About Me'
-      image={require('assets/images/global/steal_3.jpg')}
+      image={require('assets/images/global/esc_top_3.jpg')}
       content={this.props.aboutMe}
     />
   )

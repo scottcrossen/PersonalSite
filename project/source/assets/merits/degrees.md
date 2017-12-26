@@ -1,5 +1,10 @@
-Anticipated degrees are pre-dated.  
+<center>
+<h3>
+Anticipated degrees are pre-dated.
+</h3>
+</center>
 
+<br>
 
 | Degree | School | Date |
 | - | - | - |

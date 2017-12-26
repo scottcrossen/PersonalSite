@@ -20,7 +20,7 @@ module.exports = {
   },
   resolve: {
     modules: [path.resolve(__dirname), "node_modules"],
-    extensions: ['.json', '.jsx', '.js'],
+    extensions: ['.json', '.jsx', '.js', '.md'],
     alias: {
       app: path.resolve(__dirname, 'source/app'),
       styles: path.resolve(__dirname, 'source/styles'),
@@ -74,17 +74,12 @@ module.exports = {
         test: /assets[^.]*\.(json|html|md)$/i,
         use: [
           {
-            loader: 'file-loader',
-            options: {
-              name: '[path][name].[ext]',
-              context: 'source/'
-            }
-          },
-          {
             loader: 'text-replace-file-loader',
             options: {
               name: '[path][name].[ext]',
-              context: 'source/'
+              context: 'source/',
+              emit: true,
+              recursion: 'emit',
             }
           }
         ]

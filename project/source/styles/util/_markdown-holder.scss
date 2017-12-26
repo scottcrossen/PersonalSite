@@ -6,6 +6,13 @@
   max-width: 980px;
   margin: 0 auto;
   padding: 45px;
+  & > .table-aligner {
+    display: flex;
+    justify-content: center;
+    & > table {
+      width: auto;
+    }
+  }
 }
 
 @media (max-width: 767px) {

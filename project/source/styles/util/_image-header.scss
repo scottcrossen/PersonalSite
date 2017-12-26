@@ -1,19 +1,30 @@
 .image-header {
   .overlay {
-    position: absolute;
-    width: 100%;
-    top: 0px;
-    color: #000000;
-    opacity: 0.5;
-    background-color: white;
     h1 {
-      margin: 10vmin 10vmin 10vmin 10vmin;
-      width: auto;
+      margin: 0 0 0 0;
+      width: calc(100% - 20vmin);
       font-size: 10vmin;
+      margin-left: 10vmin;
+      margin-right: 10vmin;
       text-align: center;
-      line-height: 30vmin;
+      display: flex;
+      height: 30vmin;
+      align-items: center;
+      justify-content: center;
+      opacity: 1.0;
+      z-index: 2;
+      position: absolute;
     }
-    z-index: 1;
+    .opacity-screen {
+      background-color: white;
+      opacity: 0.5;
+      z-index: 1;
+      width: calc(100% - 20vmin);
+      margin-left: 10vmin;
+      margin-right: 10vmin;
+      height: 30vmin;
+      position: absolute;
+    }
   }
   .title-image {
     margin: 10vmin 10vmin 10vmin 10vmin;

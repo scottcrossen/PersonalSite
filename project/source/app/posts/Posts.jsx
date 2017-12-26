@@ -41,7 +41,7 @@ class Posts extends React.Component<Props>{
   render = (): React$Element<*> => {
     const postElements: Array<React$Node> = this.props.posts.map((post: Post, index: number) =>
       <div key={index}>
-        <div className={classnames('click-box')}><Link to={`/posts/${index}`} /></div>
+        <div className={classnames('click-box')}><Link to={`/posts/${post.order}`} /></div>
         <Image source={post.image} fit={FitTypes.none}/>
         <h2>{post.title}</h2>
         <p>{post.description}</p>
