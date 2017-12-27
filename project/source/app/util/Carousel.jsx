@@ -13,7 +13,7 @@ type Props = {
 export class Carousel extends React.Component<Props>{
 
   render = (): React$Element<*> => (
-    <OldCarousel className='custom-carousel' showStatus={false} showThumbs={false} autoPlay={false}>
+    <OldCarousel className='custom-carousel' showStatus={false} showThumbs={false} autoPlay={true}>
       {this.props.children}
     </OldCarousel>
   )

@@ -75,7 +75,7 @@ class Projects extends React.Component<Props>{
   }
 
   componentDidMount = (): void => {
-    if (this.props.projects) {
+    if (!this.props.projects.length) {
       this.props.loadProjects()
     }
   }

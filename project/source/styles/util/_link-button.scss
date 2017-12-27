@@ -1,0 +1,25 @@
+@import '~styles/colors';
+
+.link-button {
+  padding: 0;
+  margin: 10px 10px 10px 10px;
+  h3 {
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    border-style: ridge;
+    display: inline-block;
+    margin: 0;
+    &:hover {
+      background-color: $black;
+      color:$white;
+      border-color: $dark-gray;
+    }
+  }
+  &.big-button {
+    h3 {
+      min-width: 200px;
+      font-size: 20px;
+      padding: 17.5px 20px 17.5px 20px;
+    }
+  }
+}

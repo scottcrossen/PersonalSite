@@ -2,6 +2,8 @@
 
 .merits {
   .merit-links {
+    width: calc(100vw - 20vmin);
+    margin: 20px 10vmin 20px 10vmin;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;

@@ -10,6 +10,7 @@ import {Link, Switch, Route} from 'react-router-dom'
 import {withRouter} from 'react-router-dom'
 import {ImageHeader} from 'app/util/ImageHeader'
 import {MarkdownPage} from 'app/util/MarkdownPage'
+import {LinkButton} from 'app/util/LinkButton'
 
 import styles from 'styles/merits/_merits.scss'
 
@@ -68,10 +69,10 @@ class Merits extends React.Component<Props>{
             source={require('assets/images/global/y_mount_top.jpg')}
           />
           <div className={classnames('merit-links')} >
-            <Link to='/merits/degrees'><button>My Degrees</button></Link>
-            <Link to='/merits/experience'><button>My Work Experience</button></Link>
-            <Link to='/merits/courses'><button>Courses I've Taken</button></Link>
-            <Link to='/merits/other'><button>Other Accomplishments</button></Link>
+            <LinkButton className='big-button' text='My Degrees' link='/merits/degrees' />
+            <LinkButton className='big-button' text='My Work Experience' link='/merits/experience' />
+            <LinkButton className='big-button' text={'Courses I\'ve Taken'} link='/merits/courses' />
+            <LinkButton className='big-button' text='Other Accomplishments' link='/merits/other' />
           </div>
         </div>
       } />

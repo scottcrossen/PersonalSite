@@ -9,22 +9,29 @@ import {Merits} from 'app/merits/Merits'
 import {withRouter} from 'react-router-dom'
 import {Projects} from 'app/projects/Projects'
 import {AboutMe} from 'app/about/AboutMe'
+import {LinkButton} from 'app/util/LinkButton'
 
 import styles from 'styles/_base.scss'
+
+const HomeButton = (): React$Element<*> => (
+  <div className='back-home'>
+    <LinkButton link='/' text='Back to Home' />
+  </div>
+)
 
 export const App = (): React$Element<*> => (
   <Switch>
     <Route path='/projects' component={() =>
-      <div><Projects /><Link className='back-home' to='/'><h3>Back to Home</h3></Link></div>
+      <div><Projects /><HomeButton /></div>
     } />
     <Route path='/merits' component={() =>
-      <div><Merits /><Link className='back-home' to='/'><h3>Back to Home</h3></Link></div>
+      <div><Merits /><HomeButton /></div>
     } />
     <Route path='/about' component={() =>
-      <div><AboutMe /><Link className='back-home' to='/'><h3>Back to Home</h3></Link></div>
+      <div><AboutMe /><HomeButton /></div>
     } />
     <Route path='/posts' component={() =>
-      <div><Posts /><Link className='back-home' to='/'><h3>Back to Home</h3></Link></div>
+      <div><Posts /><HomeButton /></div>
     } />
     <Route path='/' component={() =>
       <Home />

@@ -87,7 +87,8 @@ class Posts extends React.Component<Props>{
   }
 
   componentDidMount = (): void => {
-    if (this.props.posts) {
+    if (!this.props.posts.length) {
+      console.log(this.props.posts)
       this.props.loadPosts()
     }
   }
