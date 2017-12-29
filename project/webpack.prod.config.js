@@ -12,7 +12,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'app.js',
-    publicPath: 'https://scottcrossen.com/'
+    publicPath: '/'
   },
   resolve: {
     modules: [path.resolve(__dirname), "node_modules"],

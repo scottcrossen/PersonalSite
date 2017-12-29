@@ -1,4 +1,4 @@
-As a last-hurrah before school starts, some friends and I went to Puerto Peñasco (Rocky Point) Mexico.
+As a last-hurrah before school starts, some friends and I went to Puerto Penasco (Rocky Point) Mexico.
 
 <center> <img src="require('assets/images/posts/mexico/mexico_friends_1.jpeg')" style="width: 640; height: 360;" /> </center>
 

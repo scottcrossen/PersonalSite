@@ -17,91 +17,119 @@
     "title": "Campus Adventures",
     "order": 2,
     "image": "require('assets/images/posts/campus_adventures/swkt_top_2.jpg')",
-    "description": "This post is currently under migration",
+    "description": "Just a few of the interesting things I found on and around BYU's campus.",
     "file": "require('assets/posts/campus-adventures.md')"
   },
   {
     "title": "Mt. Timpanogos",
     "order": 3,
     "image": "require('assets/images/posts/mt_timpanogos/timpanogos_5.jpg')",
-    "description": "This post is currently under migration",
+    "description": "The over-popularized Utah activity brought to you in blog format.",
     "file": "require('assets/posts/timpanogos.md')"
   },
   {
     "title": "Summer Concerts",
     "order": 4,
     "image": "require('assets/images/posts/summer_concerts/concert_misc_2.jpg')",
-    "description": "This post is currently under migration",
+    "description": "In the summer of 2016 I went to quite a few different concerts. This is the compilation of pictures and features that I saw.",
     "file": "require('assets/posts/summer-concerts.md')"
   },
   {
     "title": "New Mexico",
     "order": 5,
     "image": "require('assets/images/posts/new_mexico/conference_4c_nm_vista_2.jpg')",
-    "description": "This post is currently under migration",
+    "description": "As part of the APS (American Physical Society) four-corners section, students are invited to participate in an annual conference to present research they are doing. This year it was held in Las Cruces, New Mexico.",
     "file": "require('assets/posts/new-mexico.md')"
   },
   {
     "title": "Winter in Spokane",
     "order": 6,
     "image": "require('assets/images/posts/winter_in_spokane/boise_man_5.jpg')",
-    "description": "This post is currently under migration",
+    "description": "I spent the winter of 2016 in my hometown: Spokane.",
     "file": "require('assets/posts/spokane-winter.md')"
   },
   {
     "title": "Winter Semester 2017",
     "order": 7,
     "image": "require('assets/images/posts/winter_semester_2017/concert_national_parks_13.jpg')",
-    "description": "This post is currently under migration",
+    "description": "Just a few of the adventures I had in the winter semester of 2017 at BYU.",
     "file": "require('assets/posts/winter-2017.md')"
   },
   {
     "title": "More Backpacking",
     "order": 8,
     "image": "require('assets/images/posts/more_backpacking/canyonlands_bird_2.jpg')",
-    "description": "This post is currently under migration",
+    "description": "I love backpacking. Here's another set photos for my latest adventure.",
     "file": "require('assets/posts/more-backpacking.md')"
   },
   {
     "title": "Start of Summer 2017",
     "order": 9,
     "image": "require('assets/images/posts/start_of_summer_2017/duck_crossing_4.jpg')",
-    "description": "This post is currently under migration",
+    "description": "This past summer was packed full of activities. Here's what I did during the start.",
     "file": "require('assets/posts/summer-start-2017.md')"
   },
   {
     "title": "San Francisco",
     "order": 10,
     "image": "require('assets/images/posts/san_francisco/san_francisco_sign_2.jpg')",
-    "description": "This post is currently under migration",
+    "description": "As part of a roadtrip, my friend and I stopped by San Francisco.",
     "file": "require('assets/posts/san-francisco.md')"
   },
   {
     "title": "Yosemite",
     "order": 11,
     "image": "require('assets/images/posts/yosemite/half_dome_top_4.jpg')",
-    "description": "This post is currently under migration",
+    "description": "As part of a roadtrip with my friend, We visited yosemite and climbed half-dome.",
     "file": "require('assets/posts/yosemite.md')"
   },
   {
     "title": "Santa Barbara & Vegas",
     "order": 12,
     "image": "require('assets/images/posts/santa_barbara_vegas/santa_barbara_beach_2.jpg')",
-    "description": "This post is currently under migration",
+    "description": "For the final part of the roadtrip, We visited UCSB and also Las Vegas.",
     "file": "require('assets/posts/santa-barbara.md')"
   },
   {
     "title": "End of Summer 2017",
     "order": 13,
     "image": "require('assets/images/posts/end_of_summer_2017/spanish_fork_flag_3.jpg')",
-    "description": "This post is currently under migration",
+    "description": "The final hurrah for the summer of 2017.",
     "file": "require('assets/posts/summer-end-2017.md')"
   },
   {
     "title": "Mexico",
     "order": 14,
     "image": "require('assets/images/posts/mexico/mexico_vista_2.jpg')",
-    "description": "This post is currently under migration",
+    "description": "I went down to Mexico with my rooommates. We had a blast!",
     "file": "require('assets/posts/mexico.md')"
+  },
+  {
+    "title": "Seattle",
+    "order": 15,
+    "image": "require('assets/images/posts/seattle/seattle_airport_2.jpg')",
+    "description": "Early in the fall semester of 2017 I was invited by Microsoft to fly out and visit.",
+    "file": "require('assets/posts/seattle.md')"
+  },
+  {
+    "title": "Colorado",
+    "order": 16,
+    "image": "require('assets/images/posts/colorado/colorado_sunset_1.jpg')",
+    "description": "As part of my work in condensed matter physics, I was invited to present my research at the annual APS Four Corners section held in Fort Collins Colorado.",
+    "file": "require('assets/posts/colorado.md')"
+  },
+  {
+    "title": "Fall Semester 2017",
+    "order": 17,
+    "image": "require('assets/images/posts/fall_semester_2017/first_day_1.jpg')",
+    "description": "Even though I took 3 less credits than I normally do, I was still very busy this semester. I managed to have some fun though.",
+    "file": "require('assets/posts/fall-2017.md')"
+  },
+  {
+    "title": "Coeur d'Alene",
+    "order": 18,
+    "image": "require('assets/images/posts/coeur_dalene/eagles_lake_1.jpg')",
+    "description": "To start off the winter vacation of 2017, I went eagle-watching in Coeur d'Alene Idaho.",
+    "file": "require('assets/posts/coeur-dalene.md')"
   }
 ]
