@@ -1,0 +1,1 @@
+This was a quick project that I coded up for android to check the spelling of most words. It's a simple front-end composed with a "Trie" data structure designed for quick word-lookup and frequency weighting. The project can be found on my GitHub.

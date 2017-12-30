@@ -1,5 +1,149 @@
 [
   {
+    "title": "Qubit Material Research",
+    "order": 0,
+    "image": "require('assets/images/projects/spin_echo/spin_setup_1.png')",
+    "file": "require('assets/projects/qubit-research.md')"
+  },
+  {
+    "title": "Voltage Multipliers",
+    "order": 1,
+    "image": "require('assets/images/projects/voltage_multipliers/voltage_multipliers_3.png')",
+    "file": "require('assets/projects/voltage-multiplier.md')"
+  },
+  {
+    "title": "Diffraction Modeling",
+    "order": 2,
+    "image": "require('assets/images/projects/laser_diffraction/diffraction_1.jpg')",
+    "file": "require('assets/projects/diffraction-modeling.md')"
+  },
+  {
+    "title": "Snake Game",
+    "order": 3,
+    "image": "require('assets/images/projects/snake_game/snake_1.png')",
+    "file": "require('assets/projects/snake-game.md')"
+  },
+  {
+    "title": "IT Deployments",
+    "order": 4,
+    "image": "require('assets/images/projects/it_deployments/mckb_tec_lab.png')",
+    "file": "require('assets/projects/it-deployments.md')"
+  },
+  {
+    "title": "Server Administration",
+    "order": 5,
+    "image": "require('assets/images/projects/server_administration/file_server_1.jpg')",
+    "file": "require('assets/projects/server-administration.md')"
+  },
+  {
+    "title": "Ham Radio",
+    "order": 6,
+    "image": "require('assets/images/projects/ham_radio/ham_radio_1.jpg')",
+    "file": "require('assets/projects/ham-radio.md')"
+  },
+  {
+    "title": "Quantum Programming",
+    "order": 7,
+    "image": "require('assets/images/projects/quantum_programming/quantum_programming.png')",
+    "file": "require('assets/projects/quantum-programming.md')"
+  },
+  {
+    "title": "LabVIEW Programming",
+    "order": 8,
+    "image": "require('assets/images/projects/labview/labview_error.jpg')",
+    "file": "require('assets/projects/labview-programming.md')"
+  },
+  {
+    "title": "PID Controller",
+    "order": 9,
+    "image": "require('assets/images/projects/pid_controller/pid_controller_1.png')",
+    "file": "require('assets/projects/pid-controller.md')"
+  },
+  {
+    "title": "Spell Checker",
+    "order": 10,
+    "image": "require('assets/images/projects/spell_checker/spellchecker_4.png')",
+    "file": "require('assets/projects/spell-checker.md')"
+  },
+  {
+    "title": "Evil Hangman",
+    "order": 11,
+    "image": "require('assets/images/projects/hangman/hangman_1.png')",
+    "file": "require('assets/projects/evil-hangman.md')"
+  },
+  {
+    "title": "Image Editor",
+    "order": 12,
+    "image": "require('assets/images/projects/image_editor/image_editor_1.png')",
+    "file": "require('assets/projects/image-editor.md')"
+  },
+  {
+    "title": "Asteroids",
+    "order": 13,
+    "image": "require('assets/images/projects/asteroids/asteroids_2.png')",
+    "file": "require('assets/projects/asteroids.md')"
+  },
+  {
+    "title": "Language Compiler",
+    "order": 14,
+    "image": "require('assets/images/projects/datalog/datalog_1.png')",
+    "file": "require('assets/projects/language-compiler.md')"
+  },
+  {
+    "title": "Pressure Reader",
+    "order": 15,
+    "image": "require('assets/images/projects/pressure_reader/labview_1.png')",
+    "file": "require('assets/projects/pressure-reader.md')"
+  },
+  {
+    "title": "Paschen Curve",
+    "order": 16,
+    "image": "require('assets/images/projects/paschen_curve/paschen_curve_1.jpg')",
+    "file": "require('assets/projects/paschen-curve.md')"
+  },
+  {
+    "title": "Reflection Intensity",
+    "order": 17,
+    "image": "require('assets/images/projects/brewsters_angle/brewsters_angle_7.jpg')",
+    "file": "require('assets/projects/reflection-intensity.md')"
+  },
+  {
+    "title": "Family Map",
+    "order": 18,
+    "image": "require('assets/images/projects/familymap/familymap_6.png')",
+    "file": "require('assets/projects/family-map.md')"
+  },
+  {
+    "title": "Testimony Bingo",
+    "order": 19,
+    "image": "require('assets/images/projects/testimony_bingo/testimony_bingo_terminal_3.png')",
+    "file": "require('assets/projects/testimony-bingo.md')"
+  },
+  {
+    "title": "Pig Latin Messenger",
+    "order": 20,
+    "image": "require('assets/images/projects/pig_latin/pig_latin_pigs.png')",
+    "file": "require('assets/projects/pig-latin.md')"
+  },
+  {
+    "title": "Connect Four",
+    "order": 21,
+    "image": "require('assets/images/projects/connect_four/connect_four_board_2.png')",
+    "file": "require('assets/projects/connect-four.md')"
+  },
+  {
+    "title": "Tic Tac Toe",
+    "order": 22,
+    "image": "require('assets/images/projects/tic_tac_toe/tic_tac_toe_5.png')",
+    "file": "require('assets/projects/tic-tac-toe.md')"
+  },
+  {
+    "title": "Traveling Sales Person",
+    "order": 23,
+    "image": "require('assets/images/projects/traveling_sales_person/tsp_custom_2.png')",
+    "file": "require('assets/projects/traveling-sales-person.md')"
+  },
+  {
     "title": "This Site",
     "order": 99,
     "image": "require('assets/images/projects/personal_site/react-logo.svg')",

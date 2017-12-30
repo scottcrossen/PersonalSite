@@ -1,0 +1,1 @@
+Evil Hangman is an app that will play hangman against you by choosing multiple words at once and slowly narrowing down the options as you choose letter. I haven't ever beaten it yet. It's Evil. You can find the code on my GitHub.

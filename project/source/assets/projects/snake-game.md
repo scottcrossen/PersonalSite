@@ -1,0 +1,1 @@
+Using the TI MSP-430 architecture, I implemented a snake-type game using both Assembly and C. The game included a static high score (using FRAM), threaded and event-driven framework, and even simple sounds and ditties for when events were reached. A "RBX430" board (by Paul Roper) was used for the peripherals.
