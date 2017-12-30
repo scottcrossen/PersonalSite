@@ -38,7 +38,7 @@
     "title": "New Mexico",
     "order": 5,
     "image": "require('assets/images/posts/new_mexico/conference_4c_nm_vista_2.jpg')",
-    "description": "As part of the APS (American Physical Society) four-corners section, students are invited to participate in an annual conference to present research they are doing. This year it was held in Las Cruces, New Mexico.",
+    "description": "This year the APS (American Physical Society) four-corners section was held in Las Cruces, New Mexico. I was invited to present my research.",
     "file": "require('assets/posts/new-mexico.md')"
   },
   {
