@@ -144,6 +144,36 @@
     "file": "require('assets/projects/traveling-sales-person.md')"
   },
   {
+    "title": "Proxy Server",
+    "order": 24,
+    "image": "require('assets/images/projects/proxy/proxy_diagram.png')",
+    "file": "require('assets/projects/proxy.md')"
+  },
+  {
+    "title": "OpenMP: Mandelbrot Set",
+    "order": 25,
+    "image": "require('assets/images/projects/mandelbrot/mandelbrot_1.png')",
+    "file": "require('assets/projects/openmp.md')"
+  },
+  {
+    "title": "Ticket To Ride",
+    "order": 26,
+    "image": "require('assets/images/projects/ticket_to_ride/ticket_to_ride_map_crop_1.png')",
+    "file": "require('assets/projects/ticket-to-ride.md')"
+  },
+  {
+    "title": "Machine Learning",
+    "order": 27,
+    "image": "require('assets/images/projects/machine_learning/bird_song_1.jpg')",
+    "file": "require('assets/projects/machine-learning.md')"
+  },
+  {
+    "title": "Involve Me",
+    "order": 28,
+    "image": "require('assets/images/projects/audience_engagement/audience_engagement_login_2.png')",
+    "file": "require('assets/projects/audience-engagement.md')"
+  },
+  {
     "title": "This Site",
     "order": 99,
     "image": "require('assets/images/projects/personal_site/react-logo.svg')",

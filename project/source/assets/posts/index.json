@@ -131,5 +131,12 @@
     "image": "require('assets/images/posts/coeur_dalene/eagles_lake_1.jpg')",
     "description": "To start off the winter vacation of 2017, I went eagle-watching in Coeur d'Alene Idaho.",
     "file": "require('assets/posts/coeur-dalene.md')"
+  },
+  {
+    "title": "Portland / Vancouver",
+    "order": 19,
+    "image": "require('assets/images/posts/portland_vancouver/vancouver_tower_1.jpg')",
+    "description": "As part of winter break, I visited my sister in Vancouver and toured Portland.",
+    "file": "require('assets/posts/portland-vancouver.md')"
   }
 ]
