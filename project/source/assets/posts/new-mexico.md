@@ -4,7 +4,7 @@ In the winter of 2016 I was privileged to speak at the "Spring Research Conferen
 
 Then in October of 2016, I was invited to New Mexico State University along with some of my research partners to present on what we do. This is a picture of us in Albuquerque as we passed through on our home-trip from Las Cruces:
 
-<img src="require('assets/images/posts/new_mexico/albuquerque_hat_2.jpg')" style="width: 2560; height: 1440;" />
+<img src="require('assets/images/posts/new_mexico/albuquerque_hat_2.jpg')" />
 
 We had to leave on a bus that left at 1:00 am. It was a super long trip. Eventually we made it.
 
@@ -18,4 +18,4 @@ The Hotel was nice.
 
 My presentation went great too! This picture makes it look like no one was there, but there definitely were quite a few people. Just nobody sat in the first two rows.
 
-<img src="require('assets/images/posts/new_mexico/conference_4c_presentation_1.jpg')" style="width: 640; height: 360;" />
+<center> <img src="require('assets/images/posts/new_mexico/conference_4c_presentation_1.jpg')" style="width: 640; height: 360;" /> </center>

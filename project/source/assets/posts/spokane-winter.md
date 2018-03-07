@@ -2,7 +2,9 @@ This year (November 2016-January 2017) I finally had a little bit of time to rel
 
 It started with thanksgiving which was just great! I spent it with my brother and sister-in-law who lived in Salt Lake City. My brother just finished his masters in food science so he cooked an awesome meal! It was probably one of the best meals I've had in a long time. I cracked open my favorite type of ginger-ale to celebrate the occasion.
 
-<center> <img src="require('assets/images/posts/winter_in_spokane/thanksgiving_leftovers_1.jpg')" style="width: 300; height: 225;" /> <img src="require('assets/images/posts/winter_in_spokane/blenheim.jpg')" style="width: 225; height: 300;" /> </center>BYU has a testing center, and during finals the line always gets rather long. This picture shows one portion of it during finals week. It got longer but I didn't have a camera to take a picture of it at that time.
+<center> <img src="require('assets/images/posts/winter_in_spokane/thanksgiving_leftovers_1.jpg')" style="width: 300; height: 225;" /> <img src="require('assets/images/posts/winter_in_spokane/blenheim.jpg')" style="width: 225; height: 300;" /> </center>
+
+BYU has a testing center, and during finals the line always gets rather long. This picture shows one portion of it during finals week. It got longer but I didn't have a camera to take a picture of it at that time.
 
 <center> <img src="require('assets/images/posts/winter_in_spokane/testing_center_line.jpg')" style="width: 640; height: 480;" /> </center>
 
