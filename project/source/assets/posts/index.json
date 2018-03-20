@@ -145,5 +145,12 @@
     "image": "require('assets/images/posts/start_of_winter_2018/snowmachine_banner.jpg')",
     "description": "I did a lot during the first half of this semester. This is just a few of the things I did.",
     "file": "require('assets/posts/winter-start-2018.md')"
+  },
+  {
+    "title": "Coyote Gulch",
+    "order": 21,
+    "image": "require('assets/images/posts/coyote_gulch/coyote_gulch_panorama_1.jpg')",
+    "description": "I backpacked the famous 'Coyote Gulch' with some friends.",
+    "file": "require('assets/posts/coyote-gulch.md')"
   }
 ]
