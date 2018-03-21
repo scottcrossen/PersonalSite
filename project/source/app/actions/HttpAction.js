@@ -41,7 +41,7 @@ export const loadDegreesCommand = (dispatch: Dispatch, ownProps: Object): (void 
 export const loadCoursesCommand = (dispatch: Dispatch, ownProps: Object): (void => Promise<string>) => {
   return () => {
     console.log("Loading courses")
-    return fetch(require('assets/merits/courses.md'))
+    return fetch(require('assets/merits/courses.md') + `?date=${Date.now()}`)
     .then((response: Object): Promise<string> => {
       if (response.status >= 400) {
         return Promise.reject("Bad response from server")
@@ -130,7 +130,7 @@ type PostManifestItem = {
 export const loadPostsCommand = (dispatch: Dispatch, ownProps: Object): (void => Promise<Array<Post>>) => {
   return () => {
     console.log("Loading post manifest")
-    return fetch(require('assets/posts/index.json'))
+    return fetch(require('assets/posts/index.json') + `?date=${Date.now()}`)
     .then((response: Object): Promise<Array<PostManifestItem>> => {
       if (response.status >= 400) {
         return Promise.reject("Bad response from server")
@@ -141,7 +141,7 @@ export const loadPostsCommand = (dispatch: Dispatch, ownProps: Object): (void =>
       return Promise.all(
         manifest.map((item: PostManifestItem) => {
           console.log(`Loading post titled ${item.title}`)
-          return fetch(item.file).then((response: Object): Promise<Post> => {
+          return fetch(item.file + `?date=${Date.now()}`).then((response: Object): Promise<Post> => {
             if (response.status >= 400) {
               return Promise.reject("Bad response from server")
             }
@@ -178,7 +178,7 @@ type ProjectManifestItem = {
 export const loadProjectsCommand = (dispatch: Dispatch, ownProps: Object): (void => Promise<Array<Post>>) => {
   return () => {
     console.log("Loading project manifest")
-    return fetch(require('assets/projects/index.json'))
+    return fetch(require('assets/projects/index.json') + `?date=${Date.now()}`)
     .then((response: Object): Promise<Array<ProjectManifestItem>> => {
       if (response.status >= 400) {
         return Promise.reject("Bad response from server")
@@ -189,7 +189,7 @@ export const loadProjectsCommand = (dispatch: Dispatch, ownProps: Object): (void
       return Promise.all(
         manifest.map((item: ProjectManifestItem) => {
           console.log(`Loading project titled ${item.title}`)
-            return fetch(item.file).then((response: Object): Promise<Post> => {
+            return fetch(item.file + `?date=${Date.now()}`).then((response: Object): Promise<Post> => {
             if (response.status >= 400) {
               return Promise.reject("Bad response from server")
             }
