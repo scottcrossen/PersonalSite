@@ -4,7 +4,7 @@ plenty of time to do fun things!
 
 I went snow-machining with some friends.
 
-<center> <img src="require('assets/images/posts/start_of_winter_2018/snowmachine_1.jpeg')" />  </center>
+<center> <img src="require('assets/images/posts/start_of_winter_2018/snowmachine_1.jpeg')" /> </center>
 
 We stayed in one of their family cabins near Park City Utah.
 It was next to a great view.

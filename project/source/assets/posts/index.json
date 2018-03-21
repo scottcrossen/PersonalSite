@@ -152,5 +152,26 @@
     "image": "require('assets/images/posts/coyote_gulch/coyote_gulch_panorama_1.jpg')",
     "description": "I backpacked the famous 'Coyote Gulch' with some friends.",
     "file": "require('assets/posts/coyote-gulch.md')"
+  },
+  {
+    "title": "The Subway & Angel's Landing",
+    "order": 22,
+    "image": "require('assets/images/posts/subway/subway_opening_3.jpg')",
+    "description": "As part of a facebook group called 'Adventures With Will', I hiked a few places in Zion National Park",
+    "file": "require('assets/posts/subway.md')"
+  },
+  {
+    "title": "The Bay Area",
+    "order": 23,
+    "image": "require('assets/images/posts/bay_area/google_logo_1.jpg')",
+    "description": "I was invited out to interview with a few companies in the bay area. While there I explored a lot of places.",
+    "file": "require('assets/posts/bay-area.md')"
+  },
+  {
+    "title": "Climbing in St. George",
+    "order": 24,
+    "image": "require('assets/images/posts/climbing_st_george/southern_utah_panorama_1.jpg')",
+    "description": "BYU gives one day of spring break. To take advantage of it, I went climbing and skiing in St. George.",
+    "file": "require('assets/posts/st_george.md')"
   }
 ]
