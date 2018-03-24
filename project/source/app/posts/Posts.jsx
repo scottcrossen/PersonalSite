@@ -16,6 +16,7 @@ import React from 'react'
 import type {Post} from 'app/state/HttpState'
 import {withRouter} from 'react-router-dom'
 import _ from 'underscore'
+import withTracker from 'app/util/withTracker'
 
 import styles from 'styles/posts/_posts.scss'
 
@@ -69,7 +70,7 @@ class Posts extends React.Component<Props>{
     )
     return (
       <Switch>
-        <Route path='/posts/:index(\d*)' component={(matchProps: SessionMatchProps) => {
+        <Route path='/posts/:index(\d*)' component={withTracker((matchProps: SessionMatchProps) => {
           const matchedPost: Post = _.find(this.props.posts, (post: Post) => post.order == parseInt(matchProps.match.params.index))
           return (matchedPost) ? (
             <MarkdownPage
@@ -80,8 +81,8 @@ class Posts extends React.Component<Props>{
           ) : (
             indexPage()
           )
-        }} />
-        <Route path='/posts' component={indexPage} />
+        })} />
+        <Route path='/posts' component={withTracker(indexPage)} />
       </Switch>
     )
   }

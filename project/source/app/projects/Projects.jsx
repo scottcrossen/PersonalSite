@@ -13,6 +13,7 @@ import classnames from 'classnames'
 import React from 'react'
 import type {Project} from 'app/state/HttpState'
 import _ from 'underscore'
+import withTracker from 'app/util/withTracker'
 
 import styles from 'styles/projects/_projects.scss'
 
@@ -57,7 +58,7 @@ class Projects extends React.Component<Props>{
     )
     return (
       <Switch>
-        <Route path='/projects/:index(\d*)' component={(matchProps: SessionMatchProps) => {
+        <Route path='/projects/:index(\d*)' component={withTracker((matchProps: SessionMatchProps) => {
           const matchedProject: Project = _.find(this.props.projects, (projects: Project) => projects.order == parseInt(matchProps.match.params.index))
           return (matchedProject) ? (
             <MarkdownPage
@@ -68,8 +69,8 @@ class Projects extends React.Component<Props>{
           ) : (
             indexPage()
           )
-        }} />
-        <Route path='/projects' component={indexPage} />
+        })} />
+        <Route path='/projects' component={withTracker(indexPage)} />
       </Switch>
     )
   }

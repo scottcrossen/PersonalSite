@@ -11,6 +11,7 @@ import {withRouter} from 'react-router-dom'
 import {ImageHeader} from 'app/util/ImageHeader'
 import {MarkdownPage} from 'app/util/MarkdownPage'
 import {LinkButton} from 'app/util/LinkButton'
+import withTracker from 'app/util/withTracker'
 
 import styles from 'styles/merits/_merits.scss'
 
@@ -34,35 +35,35 @@ class Merits extends React.Component<Props>{
 
   render = (): React$Element<*> => {
     return <Switch>
-      <Route path='/merits/degrees' component={() =>
+      <Route path='/merits/degrees' component={withTracker(() =>
         <MarkdownPage
           title='Degrees'
           image={require('assets/images/global/byu_sign_1.jpg')}
           content={this.props.degrees}
         />
-      } />
-      <Route path='/merits/experience' component={() =>
+      )} />
+      <Route path='/merits/experience' component={withTracker(() =>
         <MarkdownPage
           title='Experience'
           image={require('assets/images/global/ecs_team_2.jpg')}
           content={this.props.experience}
         />
-      } />
-      <Route path='/merits/courses' component={() =>
+      )} />
+      <Route path='/merits/courses' component={withTracker(() =>
         <MarkdownPage
           title='Courses'
           image={require('assets/images/global/uofu_physics_3.jpg')}
           content={this.props.courses}
         />
-      } />
-      <Route path='/merits/other' component={() =>
+      )} />
+      <Route path='/merits/other' component={withTracker(() =>
         <MarkdownPage
           title='Other Merits'
           image={require('assets/images/global/steal_3.jpg')}
           content={this.props.other}
         />
-      } />
-      <Route path='/merits' component={() =>
+      )} />
+      <Route path='/merits' component={withTracker(() =>
         <div className={classnames('merits')}>
           <ImageHeader
             title='Merits'
@@ -75,7 +76,7 @@ class Merits extends React.Component<Props>{
             <LinkButton className='big-button' text='Other Accomplishments' link='/merits/other' />
           </div>
         </div>
-      } />
+      )} />
     </Switch>
   }
 

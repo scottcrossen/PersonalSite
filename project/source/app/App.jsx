@@ -10,6 +10,7 @@ import {withRouter} from 'react-router-dom'
 import {Projects} from 'app/projects/Projects'
 import {AboutMe} from 'app/about/AboutMe'
 import {LinkButton} from 'app/util/LinkButton'
+import withTracker from 'app/util/withTracker'
 
 import styles from 'styles/_base.scss'
 
@@ -21,21 +22,21 @@ const HomeButton = (): React$Element<*> => (
 
 export const App = (): React$Element<*> => (
   <Switch>
-    <Route path='/projects' component={() =>
+    <Route path='/projects' component={withTracker(() =>
       <div><Projects /><HomeButton /></div>
-    } />
-    <Route path='/merits' component={() =>
+    )} />
+    <Route path='/merits' component={withTracker(() =>
       <div><Merits /><HomeButton /></div>
-    } />
-    <Route path='/about' component={() =>
+    )} />
+    <Route path='/about' component={withTracker(() =>
       <div><AboutMe /><HomeButton /></div>
-    } />
-    <Route path='/posts' component={() =>
+    )} />
+    <Route path='/posts' component={withTracker(() =>
       <div><Posts /><HomeButton /></div>
-    } />
-    <Route path='/' component={() =>
+    )} />
+    <Route path='/' component={withTracker(() =>
       <Home />
-    } />
+    )} />
   </Switch>
 )
 
