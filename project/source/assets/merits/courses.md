@@ -48,18 +48,18 @@ Only current and completed courses shown. Future courses not included here. AP t
 | C S 330 | Concepts of Programing Lang | 3.00 | A |
 | C S 324 | Systems Programming | 3.00 | A |
 | C S 340 | Software Design & Testing | 3.00 | A |
-| C S 345 | Operating Systems Design | 3.00 | Current |
-| C S 404 | Ethics & Computers in Society | 2.00 | Current |
-| C S 428 | Software Engineering | 3.00 | Future |
-| C S 431 | Algorithmic Languages & Comp | 3.00 | Future |
-| C S 462 | Distributed System Design | 3.00 | Future |
-| C S 478 | Tools for Machine Learning | 3.00 | Current |
+| C S 345 | Operating Systems Design | 3.00 | A |
+| C S 404 | Ethics & Computers in Society | 2.00 | A |
+| C S 428 | Software Engineering | 3.00 | A |
+| C S 462 | Distributed System Design | 3.00 | A |
+| C S 465 | Computer Security | 3.00 | A |
+| C S 478 | Tools for Machine Learning | 3.00 | A |
 | MATH 112 | Calculus 1 | 4.00 | Passed by AP Exam Score 5 |
 | MATH 113 | Calculus 2 | 4.00 | Passed by AP Exam Score 5 |
 | MATH 313 | Elementary Linear Algebra | 3.00 | A |
 | MATH 314 | Calculus of Several Variables | 3.00 | A |
 | PHSCS 121 | Principles of Physics 1 | 3.00 | Passed by AP Exam Score 5 |
-| STAT 121 | Principles of Statistics | 3.00 | Current
+| STAT 121 | Principles of Statistics | 3.00 | A
 
 ## Minor: Mathematics
 
@@ -71,20 +71,6 @@ Only current and completed courses shown. Future courses not included here. AP t
 | MATH 313 | Elementary Linear Algebra | 3.00 | A |
 | MATH 314 | Calculus of Several Variables | 3.00 | A |
 | MATH 334 | Ordinary Differential Equation | 3.00 | A |
-
-
-## Minor: Management
-
-| Course | Course Title | Hrs | Grade |
-| - | - | - | - |
-| ACC 200 | Principles of Accounting | 3.00 | Future |
-| BUS M 241 | Marketing Management | 3.00 | Future |
-| BUS M 380 | Business Lecture Series | 1.00 | Future |
-| ECON 110 | Econ Principles & Problems | 3.00 | A |
-| FIN 201 | Financial Management | 3.00 | Future |
-| MATH 112 | Calculus 1 | 4.00 | Passed by AP Exam Score 5 |
-| ORG B 320 | Organizational Effectiveness | 3.00 | Future |
-| STAT 121 | Principles of Statistics | 3.00 | Current
 
 ## General Education Requirements & Electives
 
@@ -103,10 +89,15 @@ Only current and completed courses shown. Future courses not included here. AP t
 | PHIL 202 | History of Philosophy 2 | 3.00 | A |
 | PHSCS 121 | Principles of Physics 1 | 3.00 | Passed by AP Exam Score 5 |
 | PHSCS 416 | Writing in Physics | 3.00 | A |
-| PHSCS 497R | Research in Physics | 2.00 | A |
 | PHSCS 497R | Research in Physics | 3.00 | A |
+| PHSCS 497R | Research in Physics | 3.00 | A |
+| RECM 223R | Winter Camping | 2.00 | P |
 | REL A 121 | The Book of Mormon | 2.00 | A |
 | REL A 122 | The Book of Mormon | 2.00 | A- |
 | REL A 212 | The New Testament | 2.00 | A |
 | REL C 325 | The Doctrine & Covenants | 2.00 | A |
 | TMA 102 | Introduction to Film | 3.00 | A |
+
+In case you didn't catch it: I did get an A- in a "Book of Mormon" class at BYU. It wasn't enough to affect my GPA though.
+
+Note that In addition to the classes listed above, I also took a lot of College AP classes in High School. These are not listed here because they didn't pass off any program requirements. These courses only gave me college credit used toward priority registration at BYU. In the end I took 10 AP courses while in High School and scored 5s on almost all of them except for a few which I got 4s on.

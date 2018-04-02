@@ -4,7 +4,7 @@ Note: Not all prior work experience is shown. Private contracting work (I used t
 
 ### Software Engineer
 **Blue Matador Inc**  
-May 2017 - Present; Herriman, UT  
+May 2017 - September 2017; Herriman, UT  
 <br>
 
 ### Research in Condensed Matter Physics

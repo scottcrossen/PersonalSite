@@ -2,7 +2,7 @@ In addition to my other degrees, grades, and work experience, I have also accomp
 
 ## Awards
 - **Summa Cum Laude**, BYU  
-Expected April 2018  
+Awarded April 2018  
 - **Merit-Based Full-Tuition Scholarship**, BYU  
 Awarded Fall/Winter 2017-2018  
 - **Merit-Based Full-Tuition Scholarship**, BYU  
