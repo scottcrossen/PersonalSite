@@ -69,11 +69,13 @@ const customHTMLRenderer = (htmlNode, key: ?number): React$Node => {
       switch (name) {
         case 'img':
           return children.length == 0 ? (
-            <img
+            <a
+              href={src}
+              key={key}
+            ><img
               src={src}
               style={reactStyle}
-              key={key}
-            />
+            /></a>
           ) : escapedElement
         case 'br':
           return src ? escapedElement : (
