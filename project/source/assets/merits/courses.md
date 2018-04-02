@@ -90,7 +90,8 @@ Only current and completed courses shown. Future courses not included here. AP t
 | PHSCS 121 | Principles of Physics 1 | 3.00 | Passed by AP Exam Score 5 |
 | PHSCS 416 | Writing in Physics | 3.00 | A |
 | PHSCS 497R | Research in Physics | 3.00 | A |
-| PHSCS 497R | Research in Physics | 3.00 | A |
+| PHSCS 497R | Research in Physics | 2.00 | A |
+| PHSCS 497R | Research in Physics | 1.00 | A |
 | RECM 223R | Winter Camping | 2.00 | P |
 | REL A 121 | The Book of Mormon | 2.00 | A |
 | REL A 122 | The Book of Mormon | 2.00 | A- |
