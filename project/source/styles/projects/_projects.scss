@@ -16,10 +16,43 @@
         height: calc(100vw - 20vmin);
         max-height: 200px;
         margin: 20px;
+        position: relative;
         img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          z-index: 1;
+        }
+        .image-overlay {
+          height: 100%;
+          width: 100%;
+          position: absolute;
+          background-color: black;
+          opacity: 0.5;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          z-index: 2;
         }
         h2 {
-          display: none;
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          margin: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          color: $white;
+          opacity: 50%;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          z-index: 3;
         }
       }
       margin-top: 0vh;

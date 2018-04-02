@@ -5,7 +5,7 @@ entirely by me, Scott Leland Crossen, to showcase my talent. I did not use any
 site-creation tools except for basic editors and tools common to all languages.
 
 While designing this site, I had two main requirements:
-- This site could be hosted statically on AWS S3.
+- This site could be hosted statically on AWS S3. (Note that this is no longer where the site is currently hosted)
 - Blog posts and projects could be written in markdown and added to the site
 without actually changing any source code.
 
@@ -38,7 +38,7 @@ I also essentially created my own language parser to be used with webpack.
 This allowed for raw texts to include import statements within them. This loader
 would recurse through the files and handle them according to user-defined options.
 
-Finally, This site is hosted on AWS and uses the S3 and Route53 services.
+Finally, This site was originally hosted on AWS using the S3 and Route53 services, but I've since migrated all my projects to Google Cloud and Google Domains and am using the equivalent services on this platform instead.
 
 ## More details
 

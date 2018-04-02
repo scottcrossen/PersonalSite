@@ -40,6 +40,7 @@ class Projects extends React.Component<Props>{
     const projectElements: Array<React$Node> = this.props.projects.map((project: Project, index: number) =>
       <Link to={`/projects/${project.order}`} key={index}>
         <Image source={project.image} fit={FitTypes.none}/>
+        <div className="image-overlay"></div>
         <h2>{project.title}</h2>
       </Link>
     )

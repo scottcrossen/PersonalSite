@@ -174,6 +174,18 @@
     "file": "require('assets/projects/audience-engagement.md')"
   },
   {
+    "title": "Straight Up Hacking",
+    "order": 29,
+    "image": "require('assets/images/projects/computer_security/binary_numbers.png')",
+    "file": "require('assets/projects/computer-security.md')"
+  },
+  {
+    "title": "Garage Opener",
+    "order": 30,
+    "image": "require('assets/images/projects/garage/gate_clip.svg')",
+    "file": "require('assets/projects/garage.md')"
+  },
+  {
     "title": "This Site",
     "order": 99,
     "image": "require('assets/images/projects/personal_site/react-logo.svg')",
