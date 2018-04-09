@@ -186,6 +186,12 @@
     "file": "require('assets/projects/garage.md')"
   },
   {
+    "title": "2048 & More",
+    "order": 31,
+    "image": "require('assets/images/projects/grid_games/game_controller.png')",
+    "file": "require('assets/projects/grid-games.md')"
+  },
+  {
     "title": "This Site",
     "order": 99,
     "image": "require('assets/images/projects/personal_site/react-logo.svg')",

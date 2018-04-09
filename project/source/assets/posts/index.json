@@ -173,5 +173,12 @@
     "image": "require('assets/images/posts/climbing_st_george/southern_utah_panorama_1.jpg')",
     "description": "BYU gives us one day of spring break. To take advantage of it, I went climbing and skiing in St. George.",
     "file": "require('assets/posts/st_george.md')"
+  },
+  {
+    "title": "Cross-Country Skiing",
+    "order": 25,
+    "image": "require('assets/images/posts/xx_skiing/ski_boots.jpg')",
+    "description": "I took a winter camping class this semester where all we did was cross-country ski!",
+    "file": "require('assets/posts/xx-skiing.md')"
   }
 ]
