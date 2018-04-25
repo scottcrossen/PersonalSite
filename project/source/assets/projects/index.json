@@ -192,6 +192,12 @@
     "file": "require('assets/projects/grid-games.md')"
   },
   {
+    "title": "Photo Album Site",
+    "order": 32,
+    "image": "require('assets/images/projects/custom_album/snowflakes.png')",
+    "file": "require('assets/projects/custom-album.md')"
+  },
+  {
     "title": "This Site",
     "order": 99,
     "image": "require('assets/images/projects/personal_site/react-logo.svg')",
