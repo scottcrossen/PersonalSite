@@ -6,7 +6,7 @@ My personal portfolio website hosted at http://scottcrossen.com
 
 This repository is my personal website that lists my credentials, projects and blog posts. It is
 written in react, redux, SCSS, react-router, markdown, and some custom webpack loaders.
-It is hosted statically on google cloud.
+It is hosted statically on google cloud and maintained by myself -- Scott Leland Crossen
 
 ### Getting Started
 
