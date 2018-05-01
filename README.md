@@ -1,4 +1,4 @@
-# PersonalSite
+# Personal Site
 
 My personal portfolio website hosted at http://scottcrossen.com
 
