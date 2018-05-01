@@ -31,4 +31,21 @@
     height: 30vmin;
     z-index: -1;
   }
+  @media screen and (max-width: 900px) {
+    .title-image {
+      margin: 0 0 0 0;
+    }
+    .overlay {
+      h1 {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+      }
+      .opacity-screen {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+  }
 }
