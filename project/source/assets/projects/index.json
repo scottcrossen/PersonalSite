@@ -199,7 +199,7 @@
   },
   {
     "title": "This Site",
-    "order": 99,
+    "order": 33,
     "image": "require('assets/images/projects/personal_site/react-logo.svg')",
     "file": "require('assets/projects/personal-site.md')"
   }
