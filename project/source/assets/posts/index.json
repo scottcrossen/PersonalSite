@@ -180,5 +180,12 @@
     "image": "require('assets/images/posts/xx_skiing/ski_boots.jpg')",
     "description": "I took a winter camping class this semester where all we did was cross-country ski!",
     "file": "require('assets/posts/xx-skiing.md')"
+  },
+  {
+    "title": "End of Winter 2018",
+    "order": 26,
+    "image": "require('assets/images/posts/end_of_winter_2018/graduation_1.jpg')",
+    "description": "I finally graduated after four years!",
+    "file": "require('assets/posts/winter-end-2018.md')"
   }
 ]
