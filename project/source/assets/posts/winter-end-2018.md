@@ -1,14 +1,14 @@
-Well, I hope this post doesn't seem excessively boastful, bumptious, or conceited. I think everyone has their strengths -- Mine just happen to be in academics. However, since this site is primarily a personal portfolio, I'm going to include all of this information in spite of the unwanted arrogance it evinces.
+I hope this post doesn't seem excessively boastful, bumptious, or conceited. I think everyone has their strengths -- Mine just happen to be in academics. However, since this site is primarily a personal portfolio, I'm going to include all of this information in spite of the unwanted arrogance it evinces.
 
 BYU hosted their first annual 24-hr hackathon this year from March 23rd to March 24th. It was a lot of fun! I built the project described [at this link](http://localhost:9000/#/projects/28). At the end of the 24 hours, my project was rated as the best in show by the panel of Googlers that were in attendance. I won some cool prizes because of that such as a Google Home and a Google Chromecast. I guess this means that I'm the best hacker at BYU. Below is a picture of the event at 2 a.m.
 
 <center> <img src="require('assets/images/posts/end_of_winter_2018/hackathon_1.jpg')" style="width: auto; height: 300;"  /> </center>
 
-I also graduated this April with my twin brother Mark! He graduated last december with a B.S. in Computer Engineering. He works at Facebook and flew back just for this event.
+I also graduated this April with my twin brother Mark! He graduated last December with a B.S. in Computer Engineering. He works at Facebook and flew back just for this event.
 
 <center> <img src="require('assets/images/posts/end_of_winter_2018/graduation_2.jpg')" style="width: auto; height: 500;"  /> </center>
 
-So I guess this is where the bragging comes in: I graduated Summa Cum Laude (Valedictorian) with two majors in Physics and Computer Science and a minor in Mathematics. I've published a few times, I've presented my research at conferences a few times, I have a technical internship experience, I have a 4.0 GPA, I averaged 18 credit-hours each semesters, and I am a member of Phi Kappa Phi (the premier honor society at BYU). I did this all within 8 semesters.
+So I guess this is where the bragging comes in: I graduated Summa Cum Laude (Valedictorian) with two majors in Physics and Computer Science and a minor in Mathematics. I've published a few times, I've presented my research at conferences a few times, I have a technical internship experience, I have a 4.0 GPA, I usually took 18-21 credit-hours each semesters, and I am a member of Phi Kappa Phi (the premier honor society at BYU). I did this all within 8 semesters while usually working the maximum amount allowed by BYU.
 
 The first picture is in front of the famous Eyring Science Center at BYU and the second picture is in front of the "Y Tree" on campus.
 
@@ -36,4 +36,4 @@ Oh yeah, I also bought a like-new van! My intent is to outfit it into a conversi
 
 <center> <img src="require('assets/images/posts/end_of_winter_2018/nissan_exterior_1.jpg')" style="width: auto; height: 300;"  /> </center>
 
-One final thing: As I just graduated, I want to thank a few people who have helped me get here. This includes my brother Mark, my replacement twin brother Caleb Galovich, my parents, my other brothers (including the one that's female), my adventure buddy Tyler Kharazi, my thesis adviser Dr. Colton, my teacher Eric Akins, my coworkers and research partners, all of my friends and roommates, the people of South Carolina, and everyone else who has ever had to put up with me: Thanks!
+One final thing: As I just graduated, I want to thank a few people who have helped me get here. This includes my brother Mark, my real twin brother Caleb Galovich, my parents, my other brothers (including the one that's female), my adventure buddy Tyler Kharazi, my thesis adviser Dr. Colton, my teacher Eric Akins, my coworkers and research partners, all of my friends and roommates, the people of South Carolina, and everyone else who has ever had to put up with me: thanks!
