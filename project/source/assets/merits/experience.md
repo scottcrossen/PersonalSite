@@ -3,13 +3,18 @@ Note: Not all prior work experience is shown. Private contracting work (I used t
 <br>
 
 ### Software Engineer
+**Google**  
+July 2018 - Present; Mountain View, CA  
+<br>
+
+### Software Engineer
 **Blue Matador Inc**  
 May 2017 - September 2017; Herriman, UT  
 <br>
 
 ### Research in Condensed Matter Physics
 **College of Physical and Mathematical Sciences, BYU**  
-August 2015 - Present; Provo, UT  
+August 2015 - May 2018; Provo, UT  
 <br>
 
 ### Weekend Custodial Area Director
