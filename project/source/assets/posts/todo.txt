@@ -1,7 +1,0 @@
-{
-  "title": "Cross Country Skiing",
-  "order": 25,
-  "image": "require('assets/images/posts/.jpg')",
-  "description": "I took a class this semester where we pretty much just cross country skiied all day!",
-  "file": "require('assets/posts/.md')"
-}

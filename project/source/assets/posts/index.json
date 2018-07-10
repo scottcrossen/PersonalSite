@@ -187,5 +187,12 @@
     "image": "require('assets/images/posts/end_of_winter_2018/graduation_1.jpg')",
     "description": "I finally graduated after four years!",
     "file": "require('assets/posts/winter-end-2018.md')"
+  },
+  {
+    "title": "Utah to California",
+    "order": 27,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/2015-11-03_14_17_59_%22Welcome_to_California%22_sign_along_southbound_U.S._Route_95_entering_San_Bernardino_County%2C_California_from_Clark_County%2C_Nevada.jpg",
+    "description": "Moving time!",
+    "file": "require('assets/posts/moving-to-california.md')"
   }
 ]
