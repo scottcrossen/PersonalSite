@@ -36,7 +36,7 @@ I also visited "Big Springs" which is up the Zion Narrows. Of course I visted al
 
 <center> <img src="https://static1.squarespace.com/static/54ad4eb3e4b08dbf5e26472d/564529b6e4b074f7e7faf5bc/56452a4fe4b0dbdb1cd1e5e6/1457377865995/MD_101012_LUT_ZN-11.jpg" style="width: auto; height: 300;"  /> </center>
 
-Then there was Las Vegas.
+Then there was Las Vegas. (I won't post much about that here).
 
 <center> <img src="https://res.cloudinary.com/simpleview/image/upload/c_fill,f_auto,h_350,q_90,w_750/v1/clients/lasvegas/9162A76E5131D92FAC861416A9FE008A_2ec286f4-c45e-4811-84dd-c442f5d396b8.jpg" style="width: auto; height: 300;"  /> </center>
 
