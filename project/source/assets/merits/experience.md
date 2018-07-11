@@ -32,11 +32,6 @@ July 2015 - January 2016; Provo, UT
 April 2011 - July 2015; Spokane, WA  
 <br>
 
-### Missionary
-**The Church of Jesus Christ of Latter-Day Saints**  
-May 2013 - June 2015  
-<br>
-
 ### Archery Range Director
 **Camp Easton, BSA**  
 Summer 2012; Coeur d’Alene, ID  

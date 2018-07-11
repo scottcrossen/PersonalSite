@@ -16,7 +16,7 @@
 
 I grew up in Spokane Washington where I graduated High School in 2012. In 2018 I graduated Summa Cum Laude (4.0 GPA) from Brigham Young University in Provo Utah with a B.S. degree in Physics as well as in Computer Science.
 
-During the years of 2013-2015 I served a proselyting-type religious mission for the Church of Jesus Christ of Latter-day Saints. This is common to most students that attend BYU and upon my return I was privileged to perform faculty-mentored research in condensed matter physics on the topic of, among other things, electron spin coherence times as they relate to quantum computing. Between school semesters I also participated in internships at small startup software companies. This helped me develop my skills as a computer programmer. After my baccalaureate degree I started my career as a software engineer at Google. I seem to have a natural proclivity and enjoyment for software development and I hope to work in this field indefinitely.
+I took a two year break in South Carolina and upon my return I was privileged to perform faculty-mentored research in condensed matter physics on the topic of, among other things, electron spin coherence times as they relate to quantum computing. Between school semesters I also participated in internships at small startup software companies. This helped me develop my skills as a computer programmer. After my baccalaureate degree I started my career as a software engineer at Google. I seem to have a natural proclivity and enjoyment for software development and I hope to work in this field indefinitely.
 
 When I have free time, I usually spend it taking advantage of all the things that the outdoors have to offer. I enjoy cycling, backpacking, exploring, going on adventures, and kiteboarding.
 

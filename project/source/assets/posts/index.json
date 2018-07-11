@@ -4,195 +4,223 @@
     "order": 0,
     "image": "require('assets/images/posts/southern_utah/bryce_canyon_vista_2.jpg')",
     "description": "An adventure I had touring between the national parks in southern Utah.",
-    "file": "require('assets/posts/southern-utah.md')"
+    "file": "require('assets/posts/southern-utah.md')",
+    "date": 1461913200
   },
   {
     "title": "Longboarding",
     "order": 1,
     "image": "require('assets/images/posts/longboarding/longboarding_2.jpg')",
     "description": "One of the things that has become popular here in Provo is longboarding! I've tried my hand at it a few times and found it quite enjoyable!",
-    "file": "require('assets/posts/longboarding.md')"
+    "file": "require('assets/posts/longboarding.md')",
+    "date": 1465369200
   },
   {
     "title": "Campus Adventures",
     "order": 2,
     "image": "require('assets/images/posts/campus_adventures/swkt_top_2.jpg')",
     "description": "Just a few of the interesting things I found on and around BYU's campus.",
-    "file": "require('assets/posts/campus-adventures.md')"
+    "file": "require('assets/posts/campus-adventures.md')",
+    "date": 1465369200
   },
   {
     "title": "Mt. Timpanogos",
     "order": 3,
     "image": "require('assets/images/posts/mt_timpanogos/timpanogos_5.jpg')",
     "description": "The over-popularized Utah activity brought to you in blog format.",
-    "file": "require('assets/posts/timpanogos.md')"
+    "file": "require('assets/posts/timpanogos.md')",
+    "date": 1473318000
   },
   {
     "title": "Summer Concerts",
     "order": 4,
     "image": "require('assets/images/posts/summer_concerts/concert_misc_2.jpg')",
     "description": "In the summer of 2016 I went to quite a few different concerts. This is the compilation of pictures and features that I saw.",
-    "file": "require('assets/posts/summer-concerts.md')"
+    "file": "require('assets/posts/summer-concerts.md')",
+    "date": 1473318000
   },
   {
     "title": "New Mexico",
     "order": 5,
     "image": "require('assets/images/posts/new_mexico/conference_4c_nm_vista_2.jpg')",
     "description": "This year the APS (American Physical Society) four-corners section was held in Las Cruces, New Mexico. I was invited to present my research.",
-    "file": "require('assets/posts/new-mexico.md')"
+    "file": "require('assets/posts/new-mexico.md')",
+    "date": 1477378800
   },
   {
     "title": "Winter in Spokane",
     "order": 6,
     "image": "require('assets/images/posts/winter_in_spokane/boise_man_5.jpg')",
     "description": "I spent the winter of 2016 in my hometown: Spokane.",
-    "file": "require('assets/posts/spokane-winter.md')"
+    "file": "require('assets/posts/spokane-winter.md')",
+    "date": 1483858800
   },
   {
     "title": "Winter Semester 2017",
     "order": 7,
     "image": "require('assets/images/posts/winter_semester_2017/concert_national_parks_13.jpg')",
     "description": "Just a few of the adventures I had in the winter semester of 2017 at BYU.",
-    "file": "require('assets/posts/winter-2017.md')"
+    "file": "require('assets/posts/winter-2017.md')",
+    "date": 1493622000
   },
   {
     "title": "More Backpacking",
     "order": 8,
     "image": "require('assets/images/posts/more_backpacking/canyonlands_bird_2.jpg')",
     "description": "I love backpacking. Here's another set photos for my latest adventure.",
-    "file": "require('assets/posts/more-backpacking.md')"
+    "file": "require('assets/posts/more-backpacking.md')",
+    "date": 1498460400
   },
   {
     "title": "Start of Summer 2017",
     "order": 9,
     "image": "require('assets/images/posts/start_of_summer_2017/duck_crossing_4.jpg')",
     "description": "This past summer was packed full of activities. Here's what I did during the start.",
-    "file": "require('assets/posts/summer-start-2017.md')"
+    "file": "require('assets/posts/summer-start-2017.md')",
+    "date": 1531119600
   },
   {
     "title": "San Francisco",
     "order": 10,
     "image": "require('assets/images/posts/san_francisco/san_francisco_sign_2.jpg')",
     "description": "As part of a roadtrip, my friend and I stopped by San Francisco.",
-    "file": "require('assets/posts/san-francisco.md')"
+    "file": "require('assets/posts/san-francisco.md')",
+    "date": 1498460400
   },
   {
     "title": "Yosemite",
     "order": 11,
     "image": "require('assets/images/posts/yosemite/half_dome_top_4.jpg')",
     "description": "As part of a roadtrip with my friend, We visited yosemite and climbed half-dome.",
-    "file": "require('assets/posts/yosemite.md')"
+    "file": "require('assets/posts/yosemite.md')",
+    "date": 1498460400
   },
   {
     "title": "Santa Barbara & Vegas",
     "order": 12,
     "image": "require('assets/images/posts/santa_barbara_vegas/santa_barbara_beach_2.jpg')",
     "description": "For the final part of the roadtrip, We visited UCSB and also Las Vegas.",
-    "file": "require('assets/posts/santa-barbara.md')"
+    "file": "require('assets/posts/santa-barbara.md')",
+    "date": 1498460400
   },
   {
     "title": "End of Summer 2017",
     "order": 13,
     "image": "require('assets/images/posts/end_of_summer_2017/spanish_fork_flag_3.jpg')",
     "description": "The final hurrah for the summer of 2017.",
-    "file": "require('assets/posts/summer-end-2017.md')"
+    "file": "require('assets/posts/summer-end-2017.md')",
+    "date": 1504076400
   },
   {
     "title": "Mexico",
     "order": 14,
     "image": "require('assets/images/posts/mexico/mexico_vista_2.jpg')",
     "description": "I went down to Mexico with my rooommates. We had a blast!",
-    "file": "require('assets/posts/mexico.md')"
+    "file": "require('assets/posts/mexico.md')",
+    "date": 1504076400
   },
   {
     "title": "Seattle",
     "order": 15,
     "image": "require('assets/images/posts/seattle/seattle_airport_2.jpg')",
     "description": "Early in the fall semester of 2017 I was invited by Microsoft to fly out and visit.",
-    "file": "require('assets/posts/seattle.md')"
+    "file": "require('assets/posts/seattle.md')",
+    "date": 1507446000
   },
   {
     "title": "Colorado",
     "order": 16,
     "image": "require('assets/images/posts/colorado/colorado_sunset_1.jpg')",
     "description": "As part of my work in condensed matter physics, I was invited to present my research at the annual APS Four Corners section held in Fort Collins Colorado.",
-    "file": "require('assets/posts/colorado.md')"
+    "file": "require('assets/posts/colorado.md')",
+    "date": 1508742000
   },
   {
     "title": "Fall Semester 2017",
     "order": 17,
     "image": "require('assets/images/posts/fall_semester_2017/first_day_1.jpg')",
     "description": "Even though I took 3 less credits than I normally do, I was still very busy this semester. I managed to have some fun though.",
-    "file": "require('assets/posts/fall-2017.md')"
+    "file": "require('assets/posts/fall-2017.md')",
+    "date": 1512716400
   },
   {
     "title": "Coeur d'Alene",
     "order": 18,
     "image": "require('assets/images/posts/coeur_dalene/eagles_lake_1.jpg')",
     "description": "To start off the winter vacation of 2017, I went eagle-watching in Coeur d'Alene Idaho.",
-    "file": "require('assets/posts/coeur-dalene.md')"
+    "file": "require('assets/posts/coeur-dalene.md')",
+    "date": 1514444400
   },
   {
     "title": "Portland / Vancouver",
     "order": 19,
     "image": "require('assets/images/posts/portland_vancouver/vancouver_tower_1.jpg')",
     "description": "As part of winter break, I visited my sister in Vancouver and toured Portland.",
-    "file": "require('assets/posts/portland-vancouver.md')"
+    "file": "require('assets/posts/portland-vancouver.md')",
+    "date": 1514444400
   },
   {
     "title": "Start of Winter 2018",
     "order": 20,
     "image": "require('assets/images/posts/start_of_winter_2018/snowmachine_banner.jpg')",
     "description": "I did a lot during the first half of this semester. This is just a few of the things I did.",
-    "file": "require('assets/posts/winter-start-2018.md')"
+    "file": "require('assets/posts/winter-start-2018.md')",
+    "date": 1521529200
   },
   {
     "title": "Coyote Gulch",
     "order": 21,
     "image": "require('assets/images/posts/coyote_gulch/coyote_gulch_panorama_1.jpg')",
     "description": "I backpacked into the famous 'Coyote Gulch' with some friends.",
-    "file": "require('assets/posts/coyote-gulch.md')"
+    "file": "require('assets/posts/coyote-gulch.md')",
+    "date": 1521529200
   },
   {
     "title": "The Subway & Angels Landing",
     "order": 22,
     "image": "require('assets/images/posts/subway/subway_opening_3.jpg')",
     "description": "As part of a facebook group called 'Adventures With Will', I hiked a few places in Zion National Park",
-    "file": "require('assets/posts/subway.md')"
+    "file": "require('assets/posts/subway.md')",
+    "date": 1521529200
   },
   {
     "title": "The Bay Area",
     "order": 23,
     "image": "require('assets/images/posts/bay_area/google_logo_1.jpg')",
     "description": "I was invited out to interview with a few companies in the bay area. While there I explored a lot of places.",
-    "file": "require('assets/posts/bay-area.md')"
+    "file": "require('assets/posts/bay-area.md')",
+    "date": 1521529200
   },
   {
     "title": "Climbing in St. George",
     "order": 24,
     "image": "require('assets/images/posts/climbing_st_george/southern_utah_panorama_1.jpg')",
     "description": "BYU gives us one day of spring break. To take advantage of it, I went climbing and skiing in St. George.",
-    "file": "require('assets/posts/st_george.md')"
+    "file": "require('assets/posts/st_george.md')",
+    "date": 1521529200
   },
   {
     "title": "Cross-Country Skiing",
     "order": 25,
     "image": "require('assets/images/posts/xx_skiing/ski_boots.jpg')",
     "description": "I took a winter camping class this semester where all we did was cross-country ski!",
-    "file": "require('assets/posts/xx-skiing.md')"
+    "file": "require('assets/posts/xx-skiing.md')",
+    "date": 1523170800
   },
   {
     "title": "End of Winter 2018",
     "order": 26,
     "image": "require('assets/images/posts/end_of_winter_2018/graduation_1.jpg')",
     "description": "I finally graduated after four years!",
-    "file": "require('assets/posts/winter-end-2018.md')"
+    "file": "require('assets/posts/winter-end-2018.md')",
+    "date": 1525330800
   },
   {
     "title": "Utah to California",
     "order": 27,
     "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/2015-11-03_14_17_59_%22Welcome_to_California%22_sign_along_southbound_U.S._Route_95_entering_San_Bernardino_County%2C_California_from_Clark_County%2C_Nevada.jpg",
     "description": "Moving time!",
-    "file": "require('assets/posts/moving-to-california.md')"
+    "file": "require('assets/posts/moving-to-california.md')",
+    "date": 1531229400
   }
 ]
