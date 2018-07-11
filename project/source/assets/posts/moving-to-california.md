@@ -1,6 +1,6 @@
 My phone broke late April of this year and so I've been phone-less for the past three months. I have nothing to take pictures with so I've decided to include links to other people's photos in this post. For proper attribution, please click on the link/photo to go to the original picture.
 
-The past few months I've been busy building my "house" and managing my personal matters before leaving Utah. Even though I was really busy, I still had time to do fun things. I made it up to Spokane and Coeur d'Alene and also visited some hot springs around Springville Utah. I cycled a lot!
+The past few months I've been busy building my "house" and managing my personal matters before leaving Utah. Even though I was really busy, I still had time to do fun things. I made it up to Spokane and Coeur d'Alene and also visited some hot springs around Springville Utah. I went to a Joshua James Concert and I cycled a lot!
 
 <center> <img src="http://robgray.org/wp-content/uploads/2012/11/lake-CdA.jpeg" style="width: auto; height: 400;"  /> </center>
 
