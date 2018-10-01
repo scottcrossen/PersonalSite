@@ -222,5 +222,45 @@
     "description": "Moving time!",
     "file": "require('assets/posts/moving-to-california.md')",
     "date": 1531229400
+  },
+  {
+    "title": "Still No Phone",
+    "order": 28,
+    "image": "https://s21992.pcdn.co/guides/wp-content/uploads/2020/01/bonfire-hero.jpg",
+    "description": "I'm still taking life easy, but I have no phone to capture it!",
+    "file": "require('assets/posts/no-phone.md')",
+    "date": 1538350242
+  },
+  {
+    "title": "Weekday Life",
+    "order": 29,
+    "image": "require('assets/images/posts/weekday_life/google_sign_1.jpg')",
+    "description": "What my workdays are like @Google",
+    "file": "require('assets/posts/weekday_life.md')",
+    "date": 1538350242
+  },
+  {
+    "title": "Weekend Life",
+    "order": 30,
+    "image": "require('assets/images/posts/weekend_life/slacklining_2.jpg')",
+    "description": "What I do when I'm not working.",
+    "file": "require('assets/posts/weekend_life.md')",
+    "date": 1538350242
+  },
+  {
+    "title": "Mammoth Lakes",
+    "order": 31,
+    "image": "https://d1pdyfnmzhu191.cloudfront.net/images/default-source/Summer/Summer-Activities/devils_postpile_1214.jpg",
+    "description": "I went to a bike race with my brother. We checked some stuff out while we were there.",
+    "file": "require('assets/posts/mammoth_lakes.md')",
+    "date": 1538350242
+  },
+  {
+    "title": "Tahoe",
+    "order": 32,
+    "image": "require('assets/images/posts/tahoe/tahoe_kayak.jpg')",
+    "description": "I did the whole Lake Tahoe thing too.",
+    "file": "require('assets/posts/tahoe.md')",
+    "date": 1538350242
   }
 ]
