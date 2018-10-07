@@ -1,4 +1,4 @@
-Only current and completed courses shown. Future courses not included here. AP transfer courses are not included unless they pass off some course requirement. All courses and major requirements will be completed within four years of my time at BYU (by April 2018 at the latest).
+Only completed courses shown. AP transfer courses are not included unless they pass off some course requirement. All courses and major requirements were completed within four years of my time at BYU (by April 2018).
 
 ## Major: Physics
 
@@ -98,7 +98,5 @@ Only current and completed courses shown. Future courses not included here. AP t
 | REL A 212 | The New Testament | 2.00 | A |
 | REL C 325 | The Doctrine & Covenants | 2.00 | A |
 | TMA 102 | Introduction to Film | 3.00 | A |
-
-In case you didn't catch it: I did get an A- in a "Book of Mormon" class at BYU. It wasn't enough to affect my GPA though.
 
 Note that In addition to the classes listed above, I also took a lot of College AP classes in High School. These are not listed here because they didn't pass off any program requirements. These courses only gave me college credit used toward priority registration at BYU. In the end I took 10 AP courses while in High School and scored 5s on almost all of them except for a few which I got 4s on.

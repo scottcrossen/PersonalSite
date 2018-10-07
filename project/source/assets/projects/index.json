@@ -202,5 +202,17 @@
     "order": 33,
     "image": "require('assets/images/projects/personal_site/react-logo.svg')",
     "file": "require('assets/projects/personal-site.md')"
+  },
+  {
+    "title": "Trivia Buzzer",
+    "order": 34,
+    "image": "require('assets/images/projects/trivia_buzzer/trivia_buzz_background.png')",
+    "file": "require('assets/projects/trivia.md')"
+  },
+  {
+    "title": "Messenger Bot",
+    "order": 35,
+    "image": "require('assets/images/projects/messenger_bot/messenger_logo.png')",
+    "file": "require('assets/projects/messenger-bot.md')"
   }
 ]

@@ -2,7 +2,11 @@ I work a lot during the weekdays so I can have fun during the weekends! In colle
 
 <center><img src="require('assets/images/posts/weekend_life/half_dome_view_1.jpg')" style="width: auto; height: 600;" /></center>
 
-I also attended an Asian food night market.
+I've also hiked around Mount Tamalpais (north of the Golden Gate).
+
+<center><img src="https://www.bahiker.com/northbayhikes/stinson/photos/dscn0063.jpg?size=409.6" style="width: auto; height: 400;" /></center>
+
+I attended an Asian food night market.
 
 <center><img src="require('assets/images/posts/weekend_life/panda_market_1.jpg')" style="width: auto; height: 400;" /></center>
 

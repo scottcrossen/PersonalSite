@@ -262,5 +262,13 @@
     "description": "I did the whole Lake Tahoe thing too.",
     "file": "require('assets/posts/tahoe.md')",
     "date": 1538350242
+  },
+  {
+    "title": "Sonoma County",
+    "order": 33,
+    "image": "require('assets/images/posts/sonoma_county/sonoma_sign.jpg')",
+    "description": "My brother and I went to a Sonoma County for a bike race.",
+    "file": "require('assets/posts/sonoma-county.md')",
+    "date": 1538945338
   }
 ]
