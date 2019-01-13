@@ -196,7 +196,7 @@
     "order": 24,
     "image": "require('assets/images/posts/climbing_st_george/southern_utah_panorama_1.jpg')",
     "description": "BYU gives us one day of spring break. To take advantage of it, I went climbing and skiing in St. George.",
-    "file": "require('assets/posts/st_george.md')",
+    "file": "require('assets/posts/st-george.md')",
     "date": 1521529200
   },
   {
@@ -226,7 +226,7 @@
   {
     "title": "Still No Phone",
     "order": 28,
-    "image": "https://s21992.pcdn.co/guides/wp-content/uploads/2020/01/bonfire-hero.jpg",
+    "image": "http://www.yarmouthseasidefestival.com/web/wp-content/uploads/2016/06/bonfire-062916.jpg",
     "description": "I'm still taking life easy, but I have no phone to capture it!",
     "file": "require('assets/posts/no-phone.md')",
     "date": 1538350242
@@ -252,7 +252,7 @@
     "order": 31,
     "image": "https://d1pdyfnmzhu191.cloudfront.net/images/default-source/Summer/Summer-Activities/devils_postpile_1214.jpg",
     "description": "I went to a bike race with my brother. We checked some stuff out while we were there.",
-    "file": "require('assets/posts/mammoth_lakes.md')",
+    "file": "require('assets/posts/mammoth-lakes.md')",
     "date": 1538350242
   },
   {
@@ -270,5 +270,29 @@
     "description": "My brother and I went to a Sonoma County for a bike race.",
     "file": "require('assets/posts/sonoma-county.md')",
     "date": 1538945338
+  },
+  {
+    "title": "The Twin Cities",
+    "order": 34,
+    "image": "require('assets/images/posts/minnesota/minnesota_2.jpg')",
+    "description": "I visited my brother in Minneapolis!",
+    "file": "require('assets/posts/minnesota.md')",
+    "date": 1543117738
+  },
+  {
+    "title": "Los Angeles & Joshua Tree",
+    "order": 35,
+    "image": "require('assets/images/posts/los_angeles_2018/manhatten_beach_1.jpg')",
+    "description": "For new years eve I visited Los Angeles, Joshua Tree, and Santa Barbara.",
+    "file": "require('assets/posts/los-angeles-2018.md')",
+    "date": 1546314538
+  },
+  {
+    "title": "Work in the City",
+    "order": 36,
+    "image": "require('assets/images/posts/more_work/bay_bridge_1.jpg')",
+    "description": "Work is really enjoyable! Here are some random events that I've done recently.",
+    "file": "require('assets/posts/more-work.md')",
+    "date": 1547351410
   }
 ]
