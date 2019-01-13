@@ -7,4 +7,4 @@ the night at a hotel that we got on discount. We had planned to do some hikes th
 (like Kolob Canyon and Kanarraville falls) but a few feet of snow hit us that night so we
 had to drive home.
 
-<center> <img src="require('assets/images/posts/climbing_st_george/green_valley_gap_1.jpg')" style="width: auto; height: 300;"  /> <img src="require('assets/images/posts/climbing_st_george/green_valley_gap_2.jpg')" style="width: auto; height: 300;"  /> <img src="require('assets/images/posts/climbing_st_george/green_valley_gap_climbing.jpg')" style="width: auto; height: 300;"  /> </center>
+<center> <img src="require('assets/images/posts/climbing_st_george/green_valley_gap_1.jpg')" style="max-width: 400;"  /> <img src="require('assets/images/posts/climbing_st_george/green_valley_gap_2.jpg')" style="max-width: 400;"  /> <img src="require('assets/images/posts/climbing_st_george/green_valley_gap_climbing.jpg')" style="max-width: 400;"  /> </center>

@@ -10,17 +10,17 @@ The client was a built as a web app so any device could access it. I used react,
 
 The student login screen is shown below.
 
-<center> <img src="require('assets/images/projects/audience_engagement/audience_engagement_login_1.png')" style="width: 360; height: auto;" /> </center>
+<center> <img src="require('assets/images/projects/audience_engagement/audience_engagement_login_1.png')" style="max-width: 360;" /> </center>
 
 Students can answer questions that will automatically appear on their screen when
 the professor is ready.
 
-<center> <img src="require('assets/images/projects/audience_engagement/audience_engagement_answers_1.png')" style="width: 360; height: auto;" /> </center>
+<center> <img src="require('assets/images/projects/audience_engagement/audience_engagement_answers_1.png')" style="max-width: 360;" /> </center>
 
 The professor can edit lessons and questions and navigate live sessions.
 
-<center> <img src="require('assets/images/projects/audience_engagement/audience_engagement_lesson_1.png')" style="width: 600; height: auto;" /> </center>
+<center> <img src="require('assets/images/projects/audience_engagement/audience_engagement_lesson_1.png')" style="max-width: 600;" /> </center>
 
 Questions have an easy edit interface.
 
-<center> <img src="require('assets/images/projects/audience_engagement/audience_engagement_question_edit.png')" style="width: 600; height: auto;" /> </center>
+<center> <img src="require('assets/images/projects/audience_engagement/audience_engagement_question_edit.png')" style="max-width: 600;" /> </center>

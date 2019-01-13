@@ -4,8 +4,8 @@ For a school project I had the opportunity to design an algorithm that solves th
 
 I also implemented a much faster greedy method to solve for a near-perfect solution in polynomial time. The basic idea of this algorithm was to add each point to the partial-solution one at a time. The algorithm would add each point according to whatever one had the minimal cost to add.
 
-<center> <img src="require('assets/images/projects/traveling_sales_person/tsp_custom_4.png')" style="width: 300; height: 298;" /> <img src="require('assets/images/projects/traveling_sales_person/tsp_custom_3.png')" style="width: 293; height: 300;" /> <img src="require('assets/images/projects/traveling_sales_person/tsp_custom_5.png')" style="width: 298; height: 300;" /> </center>
+<center> <img src="require('assets/images/projects/traveling_sales_person/tsp_custom_4.png')" style="max-width: 400;" /> <img src="require('assets/images/projects/traveling_sales_person/tsp_custom_3.png')" style="max-width: 293;" /> <img src="require('assets/images/projects/traveling_sales_person/tsp_custom_5.png')" style="max-width: 298;" /> </center>
 
 I ran the algorithm for a few points and also a large amount of points and each time it finished within a few seconds.
 
-<center> <img src="require('assets/images/projects/traveling_sales_person/tsp_1.png')" style="width: 300; height: 259;" /> <img src="require('assets/images/projects/traveling_sales_person/tsp_2.png')" style="width: 300; height: 258;" /> </center>
+<center> <img src="require('assets/images/projects/traveling_sales_person/tsp_1.png')" style="max-width: 400;" /> <img src="require('assets/images/projects/traveling_sales_person/tsp_2.png')" style="max-width: 400;" /> </center>

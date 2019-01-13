@@ -2,4 +2,4 @@ A Cockroft-Walton multplier is a robust voltage multiplier simply obtained by an
 
 For a project that a classmate and I did, we tested this exact statement by characterizing the inefficiency of these multipliers given different parameters. We attempted to maximize efficiency by optimizing the design of the Cockroft-Walton multiplier by observing trends of efficiency versus frequency, capacitance and number of stages. In the end, we were able to come up with detailed plots of gain vs parameters plotted in a multi-dimensional space. Hopefully, these results will lead to better multiplier design in the future.
 
-<center> <img src="require('assets/images/projects/voltage_multipliers/voltage_multipliers_1.jpg')" style="width: 300; height: 225;" /> <img src="require('assets/images/projects/voltage_multipliers/voltage_multipliers_2.jpg')" style="width: 300; height: 225;" /> </center>
+<center> <img src="require('assets/images/projects/voltage_multipliers/voltage_multipliers_1.jpg')" style="max-width: 400;" /> <img src="require('assets/images/projects/voltage_multipliers/voltage_multipliers_2.jpg')" style="max-width: 400;" /> </center>

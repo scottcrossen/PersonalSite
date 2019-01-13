@@ -21,7 +21,7 @@ to transform the temporal sound to a frequency-based image file. Below is
 an example of transforming the temporal sound (left) to it's frequency
 spectrum (right).
 
-<center> <img src="require('assets/images/projects/machine_learning/temporal_spectrum_1.png')" style="width: auto; height: 30vh;" /> <img src="require('assets/images/projects/machine_learning/fourier_spectrum_1.png')" style="width: auto; height: 30vh;" /> </center>
+<center> <img src="require('assets/images/projects/machine_learning/temporal_spectrum_1.png')" style="max-width: 400;" /> <img src="require('assets/images/projects/machine_learning/fourier_spectrum_1.png')" style="max-width: 400;" /> </center>
 
 We then trained the algorithms on this new image data and tested it. We got a final accuracy
 in the high 40% -- which may not seem like much, but choosing the correct species out of

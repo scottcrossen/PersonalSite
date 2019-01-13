@@ -14,9 +14,9 @@ I like exploring Google's offices and the surrounding area.
 
 <center> <img src="require('assets/images/posts/more_work/google_wings_2.jpg')" style="max-width: 600;" /> </center>
 
-<center> <img src="require('assets/images/posts/more_work/google_wings_3.jpg')" style="max-width: 300;" /> <img src="require('assets/images/posts/more_work/google_wings_4.jpg')" style="max-width: 300;" /> </center>
+<center> <img src="require('assets/images/posts/more_work/google_wings_3.jpg')" style="max-width: 400;" /> <img src="require('assets/images/posts/more_work/google_wings_4.jpg')" style="max-width: 400;" /> </center>
 
 Not pictured is the multiple Halloween parties I attended in 2018 with my coworkers and friends.
 Here's a picture of the exploratorium in San Francisco though:
 
-<center> <img src="require('assets/images/posts/more_work/exploratorium_1.jpg')" style="max-width: 300;" /> </center>
+<center> <img src="require('assets/images/posts/more_work/exploratorium_1.jpg')" style="max-width: 400;" /> </center>

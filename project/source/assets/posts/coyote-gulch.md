@@ -6,23 +6,23 @@ Apart from just enjoying the outdoors, we also got pretty close to dying: After 
 
 There were plenty of cool arches:
 
-<center> <img src="require('assets/images/posts/coyote_gulch/coyote_gulch_arch_2.jpg')" style="width: auto; height: 300;"  /> <img src="require('assets/images/posts/coyote_gulch/coyote_gulch_arch_3.jpg')" style="width: auto; height: 300;"  /> </center>
+<center> <img src="require('assets/images/posts/coyote_gulch/coyote_gulch_arch_2.jpg')" style="max-width: 400;"  /> <img src="require('assets/images/posts/coyote_gulch/coyote_gulch_arch_3.jpg')" style="max-width: 400;"  /> </center>
 
-<center> <img src="require('assets/images/posts/coyote_gulch/coyote_gulch_arch_1.jpg')" style="width: 300; height: auto;"  /> </center>
+<center> <img src="require('assets/images/posts/coyote_gulch/coyote_gulch_arch_1.jpg')" style="max-width: 400;"  /> </center>
 
 I got to spend the time with one of my favorite adventure buddies Tyler Kharazi.
 
-<center> <img src="require('assets/images/posts/coyote_gulch/coyote_gulch_buddies_1.jpg')" style="width: auto; height: 300;"  /> <img src="require('assets/images/posts/coyote_gulch/coyote_gulch_buddies_2.jpg')" style="width: auto; height: 300;"  /> </center>
+<center> <img src="require('assets/images/posts/coyote_gulch/coyote_gulch_buddies_1.jpg')" style="max-width: 400;"  /> <img src="require('assets/images/posts/coyote_gulch/coyote_gulch_buddies_2.jpg')" style="max-width: 400;"  /> </center>
 
 <center> <img src="require('assets/images/posts/coyote_gulch/coyote_gulch_waterfall_3.jpg')" style="max-width: 650;" /> </center>
 
 A lot of great hiking and adventuring. I have no shame - here's some more cool pictures:
 
-<center> <img src="require('assets/images/posts/coyote_gulch/coyote_gulch_hiking_2.jpg')" style="width: 300; height: auto;"  /> <img src="require('assets/images/posts/coyote_gulch/coyote_gulch_stream_1.jpg')" style="width: 300; height: auto;"  /> </center>
+<center> <img src="require('assets/images/posts/coyote_gulch/coyote_gulch_hiking_2.jpg')" style="max-width: 400;"  /> <img src="require('assets/images/posts/coyote_gulch/coyote_gulch_stream_1.jpg')" style="max-width: 400;"  /> </center>
 
-<center><img src="require('assets/images/posts/coyote_gulch/coyote_gulch_hiking_1.jpg')" style="width: auto; height: 300;"  /> <img src="require('assets/images/posts/coyote_gulch/coyote_gulch_stream_2.jpg')" style="width: auto; height: 300;"  /> <img src="require('assets/images/posts/coyote_gulch/coyote_gulch_repel_1.jpg')" style="width: auto; height: 300;"  /> <img src="require('assets/images/posts/coyote_gulch/coyote_gulch_shadow.jpg')" style="width: auto; height: 300;"  /> </center>
+<center><img src="require('assets/images/posts/coyote_gulch/coyote_gulch_hiking_1.jpg')" style="max-width: 400;"  /> <img src="require('assets/images/posts/coyote_gulch/coyote_gulch_stream_2.jpg')" style="max-width: 400;"  /> <img src="require('assets/images/posts/coyote_gulch/coyote_gulch_repel_1.jpg')" style="max-width: 400;"  /> <img src="require('assets/images/posts/coyote_gulch/coyote_gulch_shadow.jpg')" style="max-width: 400;"  /> </center>
 
-<center> <img src="require('assets/images/posts/coyote_gulch/coyote_gulch_stream_3.jpg')" style="width: 300; height: auto;"  /> <img src="require('assets/images/posts/coyote_gulch/coyote_gulch_stream_4.jpg')" style="width: 300; height: auto;"  /> </center>
+<center> <img src="require('assets/images/posts/coyote_gulch/coyote_gulch_stream_3.jpg')" style="max-width: 400;"  /> <img src="require('assets/images/posts/coyote_gulch/coyote_gulch_stream_4.jpg')" style="max-width: 400;"  /> </center>
 
 Unfortunately I lost my camera, or else I would also show the more technical aspects of the hike (We had to use rope on parts).
 

@@ -35,27 +35,27 @@ method was far more superior (and much more standard).
 As for the GUI, the login screen allowed for the server to be specified and login information to
 be submitted.
 
-<center> <img src="require('assets/images/projects/ticket_to_ride/ticket_to_ride_login.png')" style="width: auto; height: 60vh;" /> </center>
+<center> <img src="require('assets/images/projects/ticket_to_ride/ticket_to_ride_login.png')" style="max-width: 400;" /> </center>
 
 The available games would then be listed on login. If the user exited the app while last playing the game,
 the app would bring up the user's current game instead. Because of the server architecture, multiple games
 could be hosted on the server and up to five people could be in any game at a time.
 
-<center> <img src="require('assets/images/projects/ticket_to_ride/ticket_to_ride_game_list.png')" style="width: auto; height: 60vh;" /> </center>
+<center> <img src="require('assets/images/projects/ticket_to_ride/ticket_to_ride_game_list.png')" style="max-width: 400;" /> </center>
 
 The game would start and users would then select their initial cards
 
-<center> <img src="require('assets/images/projects/ticket_to_ride/ticket_to_ride_choose_dest_2.png')" style="width: auto; height: 60vh;" /> <img src="require('assets/images/projects/ticket_to_ride/ticket_to_ride_choose_dest_1.png')" style="width: auto; height: 60vh;" /> </center>
+<center> <img src="require('assets/images/projects/ticket_to_ride/ticket_to_ride_choose_dest_2.png')" style="max-width: 400;" /> <img src="require('assets/images/projects/ticket_to_ride/ticket_to_ride_choose_dest_1.png')" style="max-width: 400;" /> </center>
 
 The game had a map that users could select routes on if they had the required cards.
 
-<center> <img src="require('assets/images/projects/ticket_to_ride/ticket_to_ride_map.png')" style="width: auto; height: 60vh;" /> </center>
+<center> <img src="require('assets/images/projects/ticket_to_ride/ticket_to_ride_map.png')" style="max-width: 400;" /> </center>
 
 Droor options were available for game info, player info, game history, and other player info.
 
-<center> <img src="require('assets/images/projects/ticket_to_ride/ticket_to_ride_game_info.png')" style="width: auto; height: 60vh;" /> <img src="require('assets/images/projects/ticket_to_ride/ticket_to_ride_player_info.png')" style="width: auto; height: 60vh;" /> <img src="require('assets/images/projects/ticket_to_ride/ticket_to_ride_history.png')" style="width: auto; height: 60vh;" /> <img src="require('assets/images/projects/ticket_to_ride/ticket_to_ride_other_players.png')" style="width: auto; height: 60vh;" /> </center>
+<center> <img src="require('assets/images/projects/ticket_to_ride/ticket_to_ride_game_info.png')" style="max-width: 400;" /> <img src="require('assets/images/projects/ticket_to_ride/ticket_to_ride_player_info.png')" style="max-width: 400;" /> <img src="require('assets/images/projects/ticket_to_ride/ticket_to_ride_history.png')" style="max-width: 400;" /> <img src="require('assets/images/projects/ticket_to_ride/ticket_to_ride_other_players.png')" style="max-width: 400;" /> </center>
 
 The game had a state poller to update all clients when their was new information from the server.
 Because of this it was also easy to implement a chat screen.
 
-<center> <img src="require('assets/images/projects/ticket_to_ride/ticket_to_ride_chat.png')" style="width: auto; height: 60vh;" /> </center>
+<center> <img src="require('assets/images/projects/ticket_to_ride/ticket_to_ride_chat.png')" style="max-width: 400;" /> </center>
