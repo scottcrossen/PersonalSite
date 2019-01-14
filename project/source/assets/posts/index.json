@@ -226,7 +226,7 @@
   {
     "title": "Still No Phone",
     "order": 28,
-    "image": "http://www.yarmouthseasidefestival.com/web/wp-content/uploads/2016/06/bonfire-062916.jpg",
+    "image": "https://www.yarmouthseasidefestival.com/web/wp-content/uploads/2016/06/bonfire-062916.jpg",
     "description": "I'm still taking life easy, but I have no phone to capture it!",
     "file": "require('assets/posts/no-phone.md')",
     "date": 1538350242
