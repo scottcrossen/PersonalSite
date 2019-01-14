@@ -1,6 +1,6 @@
 I hope this post doesn't seem excessively boastful, bumptious, or conceited. I think everyone has their strengths -- Mine just happen to be in academics. However, since this site is primarily a personal portfolio, I'm going to include all of this information in spite of the unwanted arrogance it evinces.
 
-BYU hosted their first annual 24-hr hackathon this year from March 23rd to March 24th. It was a lot of fun! I built the project described [at this link](http://localhost:9000/#/projects/28). At the end of the 24 hours, my project was rated as the best in show by the panel of Googlers that were in attendance. I won some cool prizes because of that such as a Google Home and a Google Chromecast. I guess this means that I'm the best hacker at BYU. Below is a picture of the event at 2 a.m.
+BYU hosted their first annual 24-hr hackathon this year from March 23rd to March 24th. It was a lot of fun! I built the project described [at this link](/#/projects/28). At the end of the 24 hours, my project was rated as the best in show by the panel of Googlers that were in attendance. I won some cool prizes because of that such as a Google Home and a Google Chromecast. I guess this means that I'm the best hacker at BYU. Below is a picture of the event at 2 a.m.
 
 <center> <img src="require('assets/images/posts/end_of_winter_2018/hackathon_1.jpg')" style="max-width: 400;"  /> </center>
 

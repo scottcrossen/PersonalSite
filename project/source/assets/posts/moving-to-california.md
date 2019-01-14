@@ -2,7 +2,7 @@ My phone broke late April of this year and so I've been phone-less for the past 
 
 The past few months I've been busy building my "house" and managing my personal matters before leaving Utah. Even though I was really busy, I still had time to do fun things. I made it up to Spokane and Coeur d'Alene and also visited some hot springs around Springville Utah. I went to a Joshua James Concert and I cycled a lot!
 
-<center> <img src="http://robgray.org/wp-content/uploads/2012/11/lake-CdA.jpeg" style="max-width: 500;"  /> </center>
+<center> <img src="https://robgray.org/wp-content/uploads/2012/11/lake-CdA.jpeg" style="max-width: 500;"  /> </center>
 
 The Diamond Fork hot springs were great.
 
@@ -24,11 +24,11 @@ I also made it close to Spooky and Peekaboo slot canyons and the Golden Cathedra
 
 I enjoyed Kanaraville Falls (all 5 of them -- the furthest one is the best).
 
-<center> <img src="http://bucketlist-living.com/wp-content/uploads/2017/02/11568764753_8441376d9a_b.jpg" style="max-width: 400;"  /> <img src="https://cdn.onlyinyourstate.com/wp-content/uploads/2016/07/14254538669_daa94365d8_b.jpg" style="max-width: 400;"  /> </center>
+<center> <img src="https://bucketlist-living.com/wp-content/uploads/2017/02/11568764753_8441376d9a_b.jpg" style="max-width: 400;"  /> <img src="https://cdn.onlyinyourstate.com/wp-content/uploads/2016/07/14254538669_daa94365d8_b.jpg" style="max-width: 400;"  /> </center>
 
 I also visited "Big Springs" which is up the Zion Narrows. Of course I visted all the other day-hikes while in Zion.
 
-<center> <img src="http://3.bp.blogspot.com/_Hgsp-00XxiA/TIFRVBzXTuI/AAAAAAAACsw/c_O9tzZ1RUs/s1600/090305-ZionNarrowsBigSpring-779990.jpg" style="max-width: 400;"  /> <img src="https://static1.squarespace.com/static/54ad4eb3e4b08dbf5e26472d/564529b6e4b074f7e7faf5bc/56452a4fe4b0dbdb1cd1e5e6/1457377865995/MD_101012_LUT_ZN-11.jpg" style="max-width: 178;"  /> </center>
+<center> <img src="https://3.bp.blogspot.com/_Hgsp-00XxiA/TIFRVBzXTuI/AAAAAAAACsw/c_O9tzZ1RUs/s1600/090305-ZionNarrowsBigSpring-779990.jpg" style="max-width: 400;"  /> <img src="https://static1.squarespace.com/static/54ad4eb3e4b08dbf5e26472d/564529b6e4b074f7e7faf5bc/56452a4fe4b0dbdb1cd1e5e6/1457377865995/MD_101012_LUT_ZN-11.jpg" style="max-width: 178;"  /> </center>
 
 Then there was Las Vegas. (I won't post much about that here).
 
@@ -36,9 +36,9 @@ Then there was Las Vegas. (I won't post much about that here).
 
 I also visited all the day hikes in Seqoia and Kings Canyon which included the Moro Rock trail, the General Grant Trail, Tunnel Log, the chimney tree, the General Sherman Tree, Tharp's Log, and Crescent Meadow.
 
-<center> <img src="https://cdn-assets.alltrails.com/uploads/photo/image/11537485/extra_large_a933d0279f734ab66f1c44c069bacf24.jpg" style="max-width: 400;"  /> <img src="http://farm4.static.flickr.com/3234/5794332483_bf42d0743f_o.jpg" style="max-width: 355;"  /> </center>
+<center> <img src="https://cdn-assets.alltrails.com/uploads/photo/image/11537485/extra_large_a933d0279f734ab66f1c44c069bacf24.jpg" style="max-width: 400;"  /> <img src="https://farm4.static.flickr.com/3234/5794332483_bf42d0743f_o.jpg" style="max-width: 355;"  /> </center>
 
-<center> <img src="http://img.timeinc.net/time/photoessays/2010/roadside_attractions/roadside_generalsherman.jpg" style="max-width: 300;" /> <img src="https://media-cdn.tripadvisor.com/media/photo-s/01/12/e8/4b/tharp-s-log.jpg" style="max-width: 400;"  /> </center>
+<center> <img src="https://img.timeinc.net/time/photoessays/2010/roadside_attractions/roadside_generalsherman.jpg" style="max-width: 300;" /> <img src="https://media-cdn.tripadvisor.com/media/photo-s/01/12/e8/4b/tharp-s-log.jpg" style="max-width: 400;"  /> </center>
 
 <center> <img src="https://media-cdn.tripadvisor.com/media/photo-s/0b/dc/72/81/tunnel-log-in-sequoia.jpg" style="max-width: 400;"  /> <img src="https://ramblinsisters.files.wordpress.com/2013/03/527779_10200775142566611_1682448806_n.jpg" style="max-width: 170;"  /> </center>
 

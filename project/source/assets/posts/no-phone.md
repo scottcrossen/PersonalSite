@@ -14,8 +14,8 @@ I also saw the lighthouse there before it closed.
 
 I've also spent a lot of time on the beach! Mostly I've just made bonfires.
 
-<center> <img src="http://www.californiabeaches.com/wp-content/uploads/2015/06/california-beach-bonfire3.jpg" style="max-width: 700;"  /> </center>
+<center> <img src="https://www.californiabeaches.com/wp-content/uploads/2015/06/california-beach-bonfire3.jpg" style="max-width: 700;"  /> </center>
 
 I've also visited a lot of places around the bay area as part of bike trips with my brother Mark -- Like Santa Cruz or San Gregorio
 
-<center> <img src="http://www.visitcalifornia.com/sites/default/files/styles/welcome_image/public/VCW_D_SantaCruz_Hero_Thomas_Hawk_5513212075_20c9c0eeee_o_1280x642.jpg" style="max-width: 800;"  /> </center>
+<center> <img src="https://www.visitcalifornia.com/sites/default/files/styles/welcome_image/public/VCW_D_SantaCruz_Hero_Thomas_Hawk_5513212075_20c9c0eeee_o_1280x642.jpg" style="max-width: 800;"  /> </center>
